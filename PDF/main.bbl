@@ -1,0 +1,279 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{brauerApplicationRamanSpectroscopy2022}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=652c2f2e22e145f7c5a8cf6588585ebe}{%
+           family={Bräuer},
+           familyi={B\bibinitperiod},
+           given={Philipp},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{652c2f2e22e145f7c5a8cf6588585ebe}
+      \strng{fullhash}{652c2f2e22e145f7c5a8cf6588585ebe}
+      \strng{bibnamehash}{652c2f2e22e145f7c5a8cf6588585ebe}
+      \strng{authorbibnamehash}{652c2f2e22e145f7c5a8cf6588585ebe}
+      \strng{authornamehash}{652c2f2e22e145f7c5a8cf6588585ebe}
+      \strng{authorfullhash}{652c2f2e22e145f7c5a8cf6588585ebe}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{Englisch}
+      \field{title}{Application of Raman spectroscopy}
+      \field{year}{Winter term 2022/2023}
+    \endentry
+    \entry{bornPrinciplesOpticsElectromagnetic1999}{book}{}
+      \name{author}{2}{}{%
+        {{hash=f3c12b2ab192a232977c790c202ae18a}{%
+           family={Born},
+           familyi={B\bibinitperiod},
+           given={Max},
+           giveni={M\bibinitperiod}}}%
+        {{hash=4f3da79454ab0edb86f37a6038d1998f}{%
+           family={Wolf},
+           familyi={W\bibinitperiod},
+           given={Emil},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cambridge ; New York}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{b14dea9f75ec6824071689113c5b3d02}
+      \strng{fullhash}{b14dea9f75ec6824071689113c5b3d02}
+      \strng{bibnamehash}{b14dea9f75ec6824071689113c5b3d02}
+      \strng{authorbibnamehash}{b14dea9f75ec6824071689113c5b3d02}
+      \strng{authornamehash}{b14dea9f75ec6824071689113c5b3d02}
+      \strng{authorfullhash}{b14dea9f75ec6824071689113c5b3d02}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{edition}{7th expanded ed}
+      \field{isbn}{978-0-521-64222-4 978-0-521-63921-7}
+      \field{pagetotal}{952}
+      \field{shorttitle}{Principles of Optics}
+      \field{title}{Principles of Optics: Electromagnetic Theory of Propagation, Interference and Diffraction of Light}
+      \field{year}{1999}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb /Users/maxikoehler/Zotero/storage/56PY2HRG/Born und Wolf - 1999 - Principles of optics electromagnetic theory of pr.pdf
+      \endverb
+      \keyw{Optics}
+    \endentry
+    \entry{hechtOptik2005}{book}{}
+      \name{author}{2}{}{%
+        {{hash=9a6efa2d012e3aaa08e4b6a8cf6a8b4c}{%
+           family={Hecht},
+           familyi={H\bibinitperiod},
+           given={Eugene},
+           giveni={E\bibinitperiod}}}%
+        {{hash=9a6efa2d012e3aaa08e4b6a8cf6a8b4c}{%
+           family={Hecht},
+           familyi={H\bibinitperiod},
+           given={Eugene},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {München Wien}%
+      }
+      \list{publisher}{1}{%
+        {Oldenbourg}%
+      }
+      \strng{namehash}{e67eeb1b53e567c72ac258476a35402d}
+      \strng{fullhash}{e67eeb1b53e567c72ac258476a35402d}
+      \strng{bibnamehash}{e67eeb1b53e567c72ac258476a35402d}
+      \strng{authorbibnamehash}{e67eeb1b53e567c72ac258476a35402d}
+      \strng{authornamehash}{e67eeb1b53e567c72ac258476a35402d}
+      \strng{authorfullhash}{e67eeb1b53e567c72ac258476a35402d}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{4., überarb. Aufl}
+      \field{isbn}{978-3-486-27359-5}
+      \field{langid}{german}
+      \field{pagetotal}{1116}
+      \field{title}{Optik}
+      \field{year}{2005}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb /Users/maxikoehler/Zotero/storage/SHE6LAB4/Hecht und Hecht - 2005 - Optik.pdf
+      \endverb
+    \endentry
+    \entry{lipsonOptik1997}{book}{}
+      \name{author}{3}{}{%
+        {{hash=2d0967f4d8f70206cf226e760058e3d4}{%
+           family={Lipson},
+           familyi={L\bibinitperiod},
+           given={Stephen\bibnamedelima G.},
+           giveni={S\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=a420eb4ba722dc881c3fb46193761cb9}{%
+           family={Lipson},
+           familyi={L\bibinitperiod},
+           given={Henry\bibnamedelima S.},
+           giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=39ab3a054d0efd2779cb0d75d7d12eb1}{%
+           family={Tannhauser},
+           familyi={T\bibinitperiod},
+           given={David\bibnamedelima S.},
+           giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin, Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer Berlin Heidelberg : Imprint : Springer}%
+      }
+      \strng{namehash}{b8248362d96d7b557907e786afb52242}
+      \strng{fullhash}{b8248362d96d7b557907e786afb52242}
+      \strng{bibnamehash}{b8248362d96d7b557907e786afb52242}
+      \strng{authorbibnamehash}{b8248362d96d7b557907e786afb52242}
+      \strng{authornamehash}{b8248362d96d7b557907e786afb52242}
+      \strng{authorfullhash}{b8248362d96d7b557907e786afb52242}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Dieses in drei englischen Auflagen erfolgreiche und bestens eingeführte Lehrbuch erscheint hier erstmals in deutscher Übersetzung, die um die Lösungen der Aufgaben erweitert ist. Studierende der Physik und Ingenieurwissenschaften finden alles, was sie zur Prüfung in diesem Fach brauchen. Der Text ist klar formuliert, der Inhalt ist didaktisch übersichtlich gegliedert und ansprechend gestaltet. 332 zweifarbige Abbildungen, Vertiefungsthemen zu jedem Kapitel, zahlreiche Experimente und Beispiele sowie 125 Übungsaufgaben mit vollständigen Lösungswegen tragen zum gründlichen Verständnis des Stoffs bei. Zur dritten englischen Ausgabe hieß es:"Das Buch gibt eine gute Einführung in die klassische und moderne Optik." Physikalische Blätter 52, 1256 (1996)}
+      \field{annotation}{OCLC: 913708795}
+      \field{isbn}{978-3-642-59053-5}
+      \field{langid}{german}
+      \field{title}{Optik}
+      \field{year}{1997}
+      \field{dateera}{ce}
+    \endentry
+    \entry{niedrigOptikWellenUnd2004}{book}{}
+      \name{editor}{1}{}{%
+        {{hash=0c78aac1b1b0ec647d32c7c2fc22b28b}{%
+           family={Niedrig},
+           familyi={N\bibinitperiod},
+           given={Heinz},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin}%
+      }
+      \list{publisher}{1}{%
+        {de Gruyter}%
+      }
+      \strng{namehash}{0c78aac1b1b0ec647d32c7c2fc22b28b}
+      \strng{fullhash}{0c78aac1b1b0ec647d32c7c2fc22b28b}
+      \strng{bibnamehash}{0c78aac1b1b0ec647d32c7c2fc22b28b}
+      \strng{editorbibnamehash}{0c78aac1b1b0ec647d32c7c2fc22b28b}
+      \strng{editornamehash}{0c78aac1b1b0ec647d32c7c2fc22b28b}
+      \strng{editorfullhash}{0c78aac1b1b0ec647d32c7c2fc22b28b}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{shorttitle}
+      \field{edition}{10. Auflage[Ausg. in 8 Bänden]}
+      \field{isbn}{978-3-11-017081-8}
+      \field{langid}{german}
+      \field{number}{3, Part 1}
+      \field{pagetotal}{668}
+      \field{series}{Lehrbuch der Experimentalphysik / Bergmann; Schaefer}
+      \field{shorttitle}{Optik}
+      \field{title}{Optik: Wellen- und Teilchenoptik: Part 1}
+      \field{year}{2004}
+      \field{dateera}{ce}
+    \endentry
+    \entry{herzbergMolecularSpectraMolecular2013}{book}{}
+      \name{author}{2}{}{%
+        {{hash=1832f521e6014a6c8942ea48f906b79c}{%
+           family={Herzberg},
+           familyi={H\bibinitperiod}}}%
+        {{hash=71b7c7b0a11fc3ad70f3874318e99d18}{%
+           family={{Huber}},
+           familyi={H\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{11c9efb2df056bd3322fb9ab87dfdebf}
+      \strng{fullhash}{11c9efb2df056bd3322fb9ab87dfdebf}
+      \strng{bibnamehash}{11c9efb2df056bd3322fb9ab87dfdebf}
+      \strng{authorbibnamehash}{11c9efb2df056bd3322fb9ab87dfdebf}
+      \strng{authornamehash}{11c9efb2df056bd3322fb9ab87dfdebf}
+      \strng{authorfullhash}{11c9efb2df056bd3322fb9ab87dfdebf}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{OCLC: 1348145007}
+      \field{edition}{Ristampa anastatica}
+      \field{isbn}{978-1-4757-0963-6}
+      \field{langid}{english}
+      \field{title}{Molecular Spectra and Molecular Structure. 4, {{Constants}} of Diatomic Molecules}
+      \field{year}{2013}
+      \field{dateera}{ce}
+    \endentry
+    \entry{schraderInfraredRamanSpectroscopy1995}{book}{}
+      \name{author}{2}{}{%
+        {{hash=0de31d882c1b1f550391dc821774c3c6}{%
+           family={Schrader},
+           familyi={S\bibinitperiod},
+           given={Bernhard},
+           giveni={B\bibinitperiod}}}%
+        {{hash=4417f17a2a9dc91381f84b01b9addc63}{%
+           family={Bougeard},
+           familyi={B\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Weinheim}%
+      }
+      \list{publisher}{1}{%
+        {VCH}%
+      }
+      \strng{namehash}{a67c066b98426eb2ec1347381bec9fdd}
+      \strng{fullhash}{a67c066b98426eb2ec1347381bec9fdd}
+      \strng{bibnamehash}{a67c066b98426eb2ec1347381bec9fdd}
+      \strng{authorbibnamehash}{a67c066b98426eb2ec1347381bec9fdd}
+      \strng{authornamehash}{a67c066b98426eb2ec1347381bec9fdd}
+      \strng{authorfullhash}{a67c066b98426eb2ec1347381bec9fdd}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{This book is an excellent introduction to vibrational spectroscopy for scientists in academia and industry. Both infrared and Raman spectroscopy are covered comprehensively and up-to-date. Therefore the book may also be used as a handbook for easy reference. Written in the language of chemists, it explains the basic theory and instrumentation, the interpretation and evaluation of spectra. Furthermore numerous, worked-out examples of practical applications are presented. Therefore the reader is enabled to apply infrared and Raman spectroscopy for solving his own problem and to design suitable e}
+      \field{annotation}{OCLC: 184983904}
+      \field{isbn}{978-3-527-61543-8}
+      \field{langid}{english}
+      \field{shorttitle}{Infrared and {{Raman}} Spectroscopy}
+      \field{title}{Infrared and {{Raman}} Spectroscopy: Methods and Applications}
+      \field{year}{1995}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb /Users/maxikoehler/Zotero/storage/B9IV5JCA/Schrader und Bougeard - 1995 - Infrared and Raman spectroscopy methods and appli.pdf
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

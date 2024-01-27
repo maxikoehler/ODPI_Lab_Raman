@@ -1,0 +1,18 @@
+[0] Config.pm:307> INFO - This is Biber 2.17
+[0] Config.pm:310> INFO - Logfile is 'PDF/main.blg'
+[85] biber-darwin:340> INFO - === Sat Jan 27, 2024, 14:53:31
+[102] Biber.pm:418> INFO - Reading 'PDF/main.bcf'
+[209] Biber.pm:972> INFO - Found 7 citekeys in bib section 0
+[224] Biber.pm:4383> INFO - Processing section 0
+[234] Biber.pm:4574> INFO - Looking for bibtex file 'literatur.bib' for section 0
+[236] bibtex.pm:1713> INFO - LaTeX decoding ...
+[250] bibtex.pm:1518> INFO - Found BibTeX data source 'literatur.bib'
+[340] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[340] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[340] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[340] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
+[345] bbl.pm:654> INFO - Writing 'PDF/main.bbl' with encoding 'UTF-8'
+[349] bbl.pm:757> INFO - Output to PDF/main.bbl
+[349] Biber.pm:130> WARN - legacy year field 'Winter term 2022/2023' in entry 'brauerApplicationRamanSpectroscopy2022' is not an integer - this will probably not sort properly.
+[349] Biber.pm:130> WARN - ISBN '978-0-521-64222-4 978-0-521-63921-7' in entry 'bornPrinciplesOpticsElectromagnetic1999' is invalid - run biber with '--validate_datamodel' for details.
+[349] Biber.pm:132> INFO - WARNINGS: 2

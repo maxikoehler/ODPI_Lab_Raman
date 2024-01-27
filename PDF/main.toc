@@ -1,0 +1,22 @@
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{\nonumberline List of Figures}{III}{chapter*.3}%
+\contentsline {chapter}{\nonumberline List of Tables}{IV}{chapter*.4}%
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Theoretical basics}{2}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Molecule - light interactions}{2}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Scattering effects}{2}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Measurement of different phisical properties - RAMAN spectroscopy}{2}{section.2.3}%
+\contentsline {chapter}{\numberline {3}Experimental setup}{3}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Used equipment}{3}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Measurement setup and preparations}{3}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Expectations}{3}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Execution}{3}{section.3.4}%
+\contentsline {chapter}{\numberline {4}Results}{4}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Data presentation and preparation}{4}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Evaluation}{4}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Error discussion}{4}{section.4.3}%
+\contentsline {chapter}{\numberline {5}Summary}{5}{chapter.5}%
+\contentsline {chapter}{\nonumberline Acronyms}{V}{chapter*.5}%
+\contentsline {chapter}{\nonumberline Symbols}{VI}{chapter*.6}%
+\contentsline {chapter}{\nonumberline Bibliography}{VII}{chapter*.10}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
