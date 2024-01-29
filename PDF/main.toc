@@ -13,10 +13,7 @@
 \contentsline {section}{\numberline {3.4}Execution}{3}{section.3.4}%
 \contentsline {chapter}{\numberline {4}Results}{4}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Data presentation and preparation}{4}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Evaluation}{4}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Error discussion}{4}{section.4.3}%
-\contentsline {chapter}{\numberline {5}Summary}{5}{chapter.5}%
-\contentsline {chapter}{\nonumberline Acronyms}{V}{chapter*.5}%
-\contentsline {chapter}{\nonumberline Symbols}{VI}{chapter*.6}%
-\contentsline {chapter}{\nonumberline Bibliography}{VII}{chapter*.10}%
+\contentsline {section}{\numberline {4.2}Evaluation and error discussion}{4}{section.4.2}%
+\contentsline {chapter}{\numberline {5}Summary}{7}{chapter.5}%
+\contentsline {chapter}{\nonumberline Bibliography}{V}{chapter*.14}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

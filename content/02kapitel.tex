@@ -41,8 +41,74 @@ The following theoretical basics are summarized from the standard literature in 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Data presentation and preparation}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Evaluation}
+\subsection*{Species determination}
+\label{subsec:spec-prep}
+
+\subsection*{Temperature calculation}
+\label{subsec:temp-prep}
+
+The raw data of the intesity spectrum over the Raman shift can be obtained in \autoref{fig:plot-temp-raw}. 
+
+\begin{figure}[!htb]
+    \centering
+    \input{images/02kapitel/temp_data_raw.pgf}
+    \caption[Absolute Raman shift intensities for the lowest and highest temperatures]{Plot of the absolute scattering intensities over the Raman shift $\Delta \tilde{v}$; Plot at the highest recorded temperature and the lowest recorded temperature for simplification purposes}
+    \label{fig:plot-temp-raw}
+\end{figure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Error discussion}
+\section{Evaluation and error discussion}
+\label{sec:eval}
+
+\subsection*{Species determination}
+\label{subsec:spec-eval}
+
+\commenting{
+    Text and data from JP.
+
+    Plots need to be integrated.
+}
+
+\subsection*{Temperature calculation}
+\label{subsec:temp-eval}
+
+The plot of the change of scattered intensities over the Raman shift is illustrated in \autoref{fig:plot-temp}. The isosbestic point can be determined at roughly $3390 \mathrm{cm^{-1}}$, via the lowest standard deviation of all the normalized data sets. The areas can be interpreted as the integration of the curve within the boundaries $[3390~\mathrm{cm^{-1}},~3800~\mathrm{cm^{-1}}]$ for $A_\mathrm{right}$, and $[2600~\mathrm{cm^{-1}},~3390~\mathrm{cm^{-1}}]$ for $A_\mathrm{left}$. Due to the already integrating behavior of the CCD sensor, it is calculated as the sum of all data points within the presented ranges.
+
+\begin{figure}[!htb]
+    \centering
+    % \includegraphics[width=\textwidth]{02kapitel/temp-shift.png}
+    \input{images/02kapitel/temp_data_norm.pgf}
+    \caption[Area-normalized Raman shift intensities for the lowest and highest temperatures]{Plot of the area-normalized scattering intensities over the Raman shift $\Delta \tilde{v}$; Plot at the highest recorded temperature and the lowest recorded temperature for simplification purposes}
+    \label{fig:plot-temp}
+\end{figure}
+
+With the record of a temperature calibration curve, a function with the form
+\begin{align}
+    T(x)=42.1 \cdot x^3 - 200.5 \cdot x^2 + 412.4 \cdot x -233.7
+\end{align}
+can be fitted to calculate the temperature of the liquid through putting in the area ratios $x$. The in between results and the final temperature for the highest and the lowest temperature curve are shown in \autoref{tab:temp}. Compared to the measurement with the thermocouple K, there is a mean error of $3.46~\mathrm{K}$, and a mean squared error of $12.83~\mathrm{K}$ over all measurements.
+
+\begin{table}[!htb]
+    \centering
+    \small
+    \caption[Temperature calculation results comparison]{Calculation results for temperature determination through Raman spectroscopy; comparing with the temperature value of the thermocouple K; only for the highest and the lowest temperature due to simplification}
+    \label{tab:temp}
+    \vspace{12pt}
+    \begin{tabular}{|l|r|r|}
+        \hline % \cline{2-3}
+        \rowcolor{lightgray}                & highest temperature   & lowest temperature \\ \hline \hline % \multicolumn{1}{l|}{\cellcolor{white}}
+        area ratio                          & 1.51281               & 1.01273 \\ \hline
+        determined $\mathrm{T}$ Raman       & 77.08 $\mathrm{K}$    & 22.04 $\mathrm{K}$ \\ \hline
+        measured $\mathrm{T}$ thermocouple  & 73.5 $\mathrm{K}$     & 20.2 $\mathrm{K}$\\ \hline
+        error                               & 3.58 $\mathrm{K}$     & 1.84 $\mathrm{K}$ \\ \hline        
+    \end{tabular}
+\end{table}
+
+\begin{figure}[!htb]
+    \centering
+    \input{images/02kapitel/temp_time.pgf}
+    \caption[Temperature comparison between Thermocouple and Raman measurement]{Temperature comparison between measurement with the Thermocouple type K and through the Raman setup; plot of temperature over the measurement time}
+    \label{fig:plot-temp-time}
+\end{figure}
+
+\mycomment[MK]{Error discussion Temp missing}
