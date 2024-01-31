@@ -332,7 +332,7 @@
 \definecolor{textcolor}{rgb}{0.000000,0.000000,0.000000}%
 \pgfsetstrokecolor{textcolor}%
 \pgfsetfillcolor{textcolor}%
-\pgftext[x=3.075000in,y=0.199075in,,top]{\color{textcolor}\rmfamily\fontsize{12.000000}{14.400000}\selectfont Raman shift}%
+\pgftext[x=3.075000in,y=0.199075in,,top]{\color{textcolor}\rmfamily\fontsize{12.000000}{14.400000}\selectfont Raman shift in $\mathrm{cm^{-1}}$}%
 \end{pgfscope}%
 \begin{pgfscope}%
 \pgfpathrectangle{\pgfqpoint{0.750000in}{0.500000in}}{\pgfqpoint{4.650000in}{3.020000in}}%

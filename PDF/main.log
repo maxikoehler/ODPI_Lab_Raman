@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.8)  29 JAN 2024 17:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.8)  31 JAN 2024 22:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1654,13 +1654,13 @@ Overfull \vbox (7.51999pt too high) has occurred while \output is active []
 ] (./images/02kapitel/temp_data_norm.pgf)
 
 LaTeX Font Warning: Font shape `T1/bch/m/scsl' undefined
-(Font)              using `T1/bch/m/sc' instead on input line 105.
+(Font)              using `T1/bch/m/sc' instead on input line 107.
 
 
 Overfull \vbox (7.51999pt too high) has occurred while \output is active []
 
  [5] (./images/02kapitel/temp_time.pgf)
-Package hyperref Info: bookmark level for unknown todo defaults to 0 on input line 114.
+Package hyperref Info: bookmark level for unknown todo defaults to 0 on input line 116.
 ) (./content/03kapitel.tex
 
 LaTeX Font Warning: Font shape `T1/bch/m/scsl' undefined
@@ -1697,13 +1697,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Here is how much of TeX's memory you used:
  58466 strings out of 478268
  1324093 string characters out of 5846347
- 2381174 words of memory out of 5000000
+ 2381590 words of memory out of 5000000
  75394 multiletter control sequences out of 15000+600000
  530057 words of font info for 172 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  113i,21n,109p,10669b,2469s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/bitstrea/charter/bchri8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on PDF/main.pdf (14 pages, 623935 bytes).
+Output written on PDF/main.pdf (14 pages, 624617 bytes).
 PDF statistics:
  283 PDF objects out of 1000 (max. 8388607)
  226 compressed objects within 3 object streams

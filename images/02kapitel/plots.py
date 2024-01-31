@@ -49,14 +49,14 @@ temp_data_raw[1:] = temp_data_raw[1:]/1000000
 
 
 # Plot of normalized data
-temp_data_norm['0'].plot(label='lowest temperature')
-temp_data_norm['70'].plot(label='highest temperature')
-plt.axvline(x = isosbestic_point, color='purple', linestyle='--', label='isosbestic point')
-plt.xlabel('Raman shift')# ' in $cm$')
-plt.ylabel('Normalized signal intensity')
-plt.grid()
-plt.legend()
-plt.savefig('temp_data_norm.pgf')
+# temp_data_norm['0'].plot(label='lowest temperature')
+# temp_data_norm['70'].plot(label='highest temperature')
+# plt.axvline(x = isosbestic_point, color='purple', linestyle='--', label='isosbestic point')
+# plt.xlabel('Raman shift')# ' in $cm$')
+# plt.ylabel('Normalized signal intensity')
+# plt.grid()
+# plt.legend()
+# plt.savefig('temp_data_norm.pgf')
 
 # Plot of temperatures from thermocouple and raman
 # temp_time['T_thermocouple'].plot(label='T by thermocouple')
