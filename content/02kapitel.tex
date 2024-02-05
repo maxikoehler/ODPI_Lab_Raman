@@ -5,38 +5,222 @@
 \chapter{Theoretical basics}
 \label{chap:theoretical}
 
-The following theoretical basics are summarized from the standard literature in optics \autocite{bornPrinciplesOpticsElectromagnetic1999,hechtOptik2005,lipsonOptik1997,niedrigOptikWellenUnd2004} and more specifically Raman application \autocite{herzbergMolecularSpectraMolecular2013,schraderInfraredRamanSpectroscopy1995}. 
+This chapter contains an overview of the physical principles on which the experiment is based. Firstly, light-molecule interactions are described in general before the scattering effects that are measured during Raman spectroscopy are considered. The complete chapter is cited from the laboratory script \autocite{brauerApplicationRamanSpectroscopy2022}, standard literature in optics \autocite{bornPrinciplesOpticsElectromagnetic1999,hechtOptik2005,lipsonOptik1997,niedrigOptikWellenUnd2004} and further specifically considering Raman application \autocite{herzbergMolecularSpectraMolecular2013,schraderInfraredRamanSpectroscopy1995}. 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Molecule - light interactions}
+\section{Properties of light}
+
+As per the light wave duality, light can be described as both a wave and a massless particle. The energy of light is transported by photons, each of which carries an amount of energy equal to its frequency multiplied by Planck’s quantum of action.
+\begin{align}
+    E=h \cdot f
+\end{align}
+By inserting the standard equation for wave propagation, it can be shown that the Energy of a photon is inversely proportional to its wavelength.
+\begin{align}
+    c&=f \cdot \lambda \\
+    E&= \frac{h \cdot c}{\lambda}
+\end{align}
+The wavenumber $\nu$ is used to quantify the energy of a photon in a simple manner.
+\begin{align}
+    \nu=\frac{1}{\lambda}
+\end{align}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Scattering effects}
+\section{Properties of molecules}
+
+Apart from translational energy, which has no influence on light-molecule interactions, molecules can occupy a discrete set of energetic states that are characterized by the electronic, vibrational, and rotational quantum numbers $n$, $v$, and $J$ respectively.
+
+\subsection{Electronic energy states}
+
+The largest energy differences can be found between the electronic the electronic energy states, which are quantified by the principal quantum number n. A shift in the electronic state is much bigger than the difference between a pair of vibrational levels. The energy gap between two neighboring rotational states is the smallest. \autoref{fig:energy-states} illustrates the distribution of the different energetic states.
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=.6\textwidth]{02kapitel/energy-states.png}
+    \caption[Potential energy curves with some energy levels]{Potential energy curves of a molecule with some sketched energy levels (vibrational and rotational), scheme after \autocite{brauerApplicationRamanSpectroscopy2022}}
+    \label{fig:energy-states}
+\end{figure}
+
+Because of the high energies needed visible light can usually not excite a molecule electronically. Because the light source used in the experiment lies within the visible range the effects of electronic excitation will not be discussed any further at this point.
+
+\subsection{Vibrational energy states}
+
+As a molecule consists of multiple interconnected atoms it can perform several types of oscillations. The number of degrees of freedom of a molecule depends on the number of atoms N in the molecule and their positioning relative to each other. While linear molecules have 3N-5 degrees of freedom, non-linear molecules can oscillate with 3N-6 degrees of freedom. \autoref{fig:vib-states} shows the several types of oscillation for a diatomic molecule (Hydrogen) as well as linear and non-linear three atomic molecules using the examples of carbon dioxide and water, respectively.
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=.7\textwidth]{02kapitel/vib-states.png}
+    \caption[Normal modes of selected molecules]{Normal vibrational modes of molecules; water ($\mathrm{H_2O}$) and $\mathrm{CO_2}$ \autocite{brauerApplicationRamanSpectroscopy2022}}
+    \label{fig:vib-states}
+\end{figure}
+
+It should also be noted that the vibration of a molecule is best described by the model of an anharmonic oscillator, due to the binding forces between the atoms diminishing as their distance increases. This effect dampens the vibration of the molecule which is why a harmonic oscillator does not allow for an accurate description of the energy levels. The dampening also leads to a diminishing energy difference between neighboring energy levels as the vibrational quantum number $\nu$ increases. In \autoref{fig:anharmonic-osz} both models are compared. The dampening effect of the anharmonic oscillator is 
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=.7\textwidth]{02kapitel/anharmonic-osz.png}
+    \caption[Model of an anharmonic oszillator]{Harmonic and anharmonic potential curves with the corresponding energy level diagram
+    of the oscillation states \autocite{brauerApplicationRamanSpectroscopy2022}}
+    \label{fig:anharmonic-osz}
+\end{figure}
+
+\subsection{Rotational energy states}
+
+The smallest energetic differences can be found in the rotational stage. The rotational energy of a molecule is quantified by the rotational quantum number $J$. A simple model to describe the rotational energy of the molecule is the rigid rotator, which consists of two mass points with a fixed distance between them. \autoref{eq:rigid-rotator} shows how the rotational states would be quantified for a rigid rotator with $I_\mathrm{e}$ being the molecule moment of inertia and $B_\mathrm{e}$ being the rotational constant.
+\begin{align}
+    F(J)&=\frac{E_\mathrm{rot}(J)}{h \cdot c}=\frac{h}{8\pi^2 \cdot c \cdot I_\mathrm{e}} \cdot J \cdot (J+1) \nonumber \\[6pt]
+    F(J)&=B_\mathrm{e} \cdot J \cdot (J+1) \label{eq:rigid-rotator}
+\end{align}
+In reality, however, the atoms of a molecule are connected by a force of attraction rather than a fixed distance.  Due to vibrations or in this case centrifugal forces, the distance between the atoms will change. Therefore, molecules are non-rigid rotators, which leads to the energy levels being lower than they would be for a rigid rotator as is illustrated in \autoref{fig:rot-states}.
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=.8\textwidth]{02kapitel/rot-states.png}
+    \caption[Scheme of rotational energy states: Rigid vs. Non-rigid rotator]{Schematic diagram of a rigid and a non-rigid rotator and the corresponding rotational energy levels \autocite{brauerApplicationRamanSpectroscopy2022}}
+    \label{fig:rot-states}
+\end{figure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Measurement of different phisical properties - RAMAN spectroscopy}
+\section{Photon-molecule interactions}
+
+Because of the discrete nature of the energetic states of molecules, different kinds of interactions between photons and molecules can be observed.
+
+\subsection{Flourescence}
+
+\begin{wrapfigure}{R}{.5\textwidth}
+    \setcapwidth[c]{.8\linewidth}
+    \centering
+    \includegraphics[width=.3\textwidth]{02kapitel/flourescence.png}
+    \caption[Energy scheme of flourescence]{Potential energy curve with scheme of fluorescence processes \autocite{brauerApplicationRamanSpectroscopy2022}}
+    \label{fig:flourescence}
+\end{wrapfigure}
+Photons carrying a sufficient amount of energy may excite molecules into a higher electronic state. Relaxation processes lead to the molecule falling into a lower vibrational state, still within the excited electronic state. From there another fallback occurs which takes the molecule back to the electronic ground state. As the molecule may end up in different vibrational states after the fallback, fluorescence releases photons of different energies and thus emits a broad spectrum of light. \autoref{fig:flourescence} presents the process of fluorescence in a schematic manner where the dotted arrows indicate the emission of different wavelengths. The energy of infrared and visible light is not enough to induce fluorescence usually.
+
+\subsection{Infrared absorption}
+
+When the energy of a photon matches exactly with the difference between the current and any higher energetic state of a molecule, it is absorbed. As the photons of infrared light carry relatively low amounts of energy the molecule cannot be promoted into a higher electronic state, which means that in contrast to fluorescence, no fallback occurs and thus no photon is emitted. After the absorption, the photon no longer exists as its entire energy has been used to transfer the molecule into a higher energetic state. Instead of emitting a photon during relaxation, the surplus of energy is dissipated into the environment through heat. As the distribution of energetic states is characteristic of each molecule, absorption spectroscopy can be used to identify which molecules are present in a sample.
+
+\subsection{Scattering effects}
+
+If the energy of a photon does not match any energy gap inside the molecule, the photon will be scattered. In contrast to absorption, the photon does not cease to exist as it is only redirected in a random direction away from the molecule it collided with. Scattering effects can be categorized into elastic and inelastic scattering. Elastic scattering describes scattering processes where no energy is transferred and is also known as Rayleigh-Scattering. In the case of inelastic scattering, energy has been transferred between the photon and the molecule.
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=.8\textwidth]{02kapitel/scattering.png}
+    \caption[Energy diagrams of scattering events]{Different ways of interaction of photon and molecule: b) Rayleigh scattering; c) Raman-Stokes transition; d) Raman-Anti-Stokes transition \autocite{brauerApplicationRamanSpectroscopy2022}}
+    \label{fig:scattering}
+\end{figure}
+
+Depending on whether energy was transferred from the photon to the molecule or vice versa, inelastic scattering can be divided into Raman-Stokes and Raman-Anti-Stokes scattering. During Raman-Stokes scattering the photon transfers energy to the molecule which results in a lower energy and therefore red-shifted photon being scattered and the molecule residing in a higher energetic state than before. Raman-Anti-Stokes scattering on the other hand leads to a higher energy, blue shifted photon being scattered and leaves the molecule on a lower energetic level. Thus Raman-Anti-Stokes scattering cannot occur with the molecule beginning in the ground state as it cannot release any more energy. Consequently, Raman-Anti-Stokes is less prevalent than Raman-Stokes scattering because the number of molecules in lower energetic states is always higher than the number of molecules residing in higher energetic states, which is described by the Boltzmann distribution. \autoref{fig:scattering} illustrates the energetic transitions of scattering processes.
+
+The energy difference between incoming and outgoing photons is quantified by the so-called Raman shift, which is expressed as a wavenumber. By analyzing the signal intensity at certain wavenumbers, conclusions can be drawn about the molecular composition and temperature of a sample.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \chapter{Experimental setup}
 \label{chap:experimental}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Used equipment}
+A correct interpretation of empirical data requires knowledge of the experimental setup. This chapter contains a description of the physical apparatus used in the experiment as well as the measurement procedure.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Measurement setup and preparations}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Expectations}
+In this experiment, a diode-pumped, frequency-doubled continuous wave laser is used as the excitation light source. It emits light with a power of $250~\mathrm{mW}$ and a wavelength of $532~\mathrm{nm}$. A plano-convex lens focuses the laser beam into an optical fibre which directs the light into the Raman measurement head. Inside the measurement head, the optical fibre is followed by a convex lens which is used to collimate the light before it passes through a laser line filter. A dichroic beam splitter then reflects the collimated and filtered beam. The beam splitter transmits light with wavelengths higher than $532~\mathrm{nm}$ and reflects shorter-wavelength light. Hence, the incident laser light is reflected in such a way that it leaves the measurement head through a plano-convex lens with a focal length of $150~\mathrm{mm}$. The sample is positioned so that the focal point is inside the measurement volume.
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=.8\textwidth]{02kapitel/raman-gun.png}
+    \caption[Optical setup for Raman spectroscopy measurements]{Optical setup for Raman spectroscopy measurements \autocite{brauerApplicationRamanSpectroscopy2022}}
+    \label{fig:raman-gun}
+\end{figure}
+
+The light scattered in the measurement volume is detected in backscatter, where the lens focusing the laser beam also collects and aligns the scattered light. The dichroic beam splitter reflects the elastically scattered Rayleigh signal ($\lambda = 532 \mathrm{nm}$) and transmits the inelastically scattered Raman signal ($\lambda > 532 \mathrm{nm}$). To eliminate the remaining Rayleigh signal, a long-pass filter (8, RazorEdge\textsuperscript{\textcopyright} filter) with a cutoff at $532~\mathrm{nm}$ is used. A $100~\mathrm{mm}$ focal length lens (9) precisely focuses the signal into the center of the optical fiber bundle, guiding it to the spectrometer. Within the spectrometer, the signal is projected onto a CCD chip with 1044 pixels, resolving the wavelength range from $535.04~\mathrm{nm}$ to $705.84~\mathrm{nm}$.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Execution}
+
+\subsection{Determination of the alcohol content of an unknown liquid}
+
+To establish a correlation between Raman signal intensities and ethanol concentrations, calibration measurements are performed with known concentrations. The following molar fractions of ethanol are used for calibration:
+\begin{align}
+    x_\mathrm{EtOH}=\{0.0; 0.1; 0.2; 0.4; 0.6; 0.8; 1.0\} \nonumber
+\end{align}
+Guided by specified densities and molar masses, a consistent total volume of $20~\mathrm{ml}$ is maintained for each solution. Volumes were precalculated, as depicted in \autoref{tab:ethanol-conc} and the measurements are conducted at room temperature.
+
+\begin{table}[!htb]
+    \centering
+    \small
+    \caption[Pre-calculation of volumes and volume fractions]{Pre-calculation of volumes and volume fractions for the experiment; table is showing in-between results as well}
+    \label{tab:ethanol-conc}
+    \vspace{12pt}
+    \begin{tabularx}{\textwidth}{|l|l|l|l|l|l|X|}
+        \hline 
+        \rowcolor{lightgray} $x_\mathrm{EtOH}$ & $n_\mathrm{EtOH}~\mathrm{[mol]}$ & $n_\mathrm{H_2O}~\mathrm{[mol]}$ & $V_\mathrm{EtOH}~\mathrm{[m^3]}$ & $V_\mathrm{H_2O}~\mathrm{[m^3]}$ & $V_\mathrm{control}~\mathrm{[ml]}$ & Volume fraction $\mathrm{EtOH}$ \\ \hline \hline
+        1	& 0,34 & 	0,00 & 	0,0000200 & 	0,0000000 & 	20,00 & 	1,00  \\ \hline
+        0,8	& 0,32 & 	0,08 & 	0,0000186 & 	0,0000014 & 	20,00 & 	0,93  \\ \hline
+        0,6	& 0,28 & 	0,19 & 	0,0000166 & 	0,0000034 & 	20,00 & 	0,83  \\ \hline
+        0,4	& 0,23 & 	0,35 & 	0,0000137 & 	0,0000063 & 	20,00 & 	0,68  \\ \hline
+        0,2	& 0,15 & 	0,61 & 	0,0000090 & 	0,0000110 & 	20,00 & 	0,45  \\ \hline
+        0,1	& 0,09 & 	0,82 & 	0,0000053 & 	0,0000147 & 	20,00 & 	0,27  \\ \hline
+        0	& 0,00 & 	--	 &  0,0000000 &  	0,0000200 &  	20,00 &  	0,00  \\ \hline
+
+    \end{tabularx}
+\end{table}
+
+\begin{align}
+    V_\mathrm{ges}&=\frac{n_\mathrm{EtOH} \cdot M_\mathrm{EtOH}}{\rho_\mathrm{EtOH}} + \frac{n_\mathrm{H_2O} \cdot M_\mathrm{H_2O}}{\rho_\mathrm{H_2O}} \\[6pt]
+    n_\mathrm{H_2O}&=\frac{n_\mathrm{EtOH} \cdot (1-x_\mathrm{EtOH})}{x_\mathrm{EtOH}} \\[6pt]
+    V&=\frac{n \cdot M}{\rho}
+\end{align}
+
+The measurements are conducted in the software "SpectraSuite". Exposure time is set to $1~\mathrm{s}$, before recording and subtracting a dark spectrum, and optimizing the cuvette's position in the laser beam. Ten Raman spectra are captured, saved, and exported for each mixture. After room lighting was restored, subsequent steps included sample replacement, process repetition, and saving spectra for different compositions in the designated folder. At last, the spectrum of the cuvette containing the unknown mixture is recorded.
+
+\subsection{Measurement of the temperature}
+
+For observing the temperature of a liquid, the experimental setup of \autoref{fig:raman-temp-setup} is used. It contains a bigger glass cuvette, the liquid, a stirring fish and a type-K thermocouple for externally measuring the temperature as validation resp. comparison. With this setup, a homogeneous mixture shall be obtained. Under the cuvette, a heating plate is placed, which is also used to rotate the (magnetic) mixer. The laser beam must not meet with the thermocouple or the stirring fish.
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=.6\textwidth]{02kapitel/temp-raman.png}
+    \caption[Additional measurement setup for temperature determination with Raman]{Additional measurement setup for temperature determination with Raman \autocite{brauerApplicationRamanSpectroscopy2022}}
+    \label{fig:raman-temp-setup}
+\end{figure}
+
+The beaker is initially filled with $100~\mathrm{ml}$ of water and the stirring plate is set to level three. The room light is turned off, and the integration time of the CCD is set to $1~\mathrm{s}$. After switching on the measurement of the Raman signal and the thermocouple temperature (log every $10~\mathrm{s}$), the heating plate starts heating to $70~\mathrm{^\circ C}$. The heating plate is switched off after $1.5~\mathrm{min}$ $20~\mathrm{ml}$ water is added. Waiting for another $1.5~\mathrm{min}$, another $20~\mathrm{ml}$ of water is slowly dripped in. After waiting another short time, the beaker is filled with water. The measurement is finished.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Evaluation strategy}
+
+\subsection{Determination of the alcohol content of an unknown liquid}
+
+To establish a correlation between the signal intensities and the concentrations of ethanol and water, the separation wavenumber between the two peaks is determined by a combination of graphical and statistical methods. The measured counts $k$ are then accumulated over the spectral bands of each species to determine the overall signal intensities of ethanol and water, respectively.
+\begin{align}
+    I_\mathrm{EtOH}&=\sum_{2600~\mathrm{cm^{-1}}}^{\nu_\mathrm{separation}} k \\[12pt]
+    I_\mathrm{H_2O}&=\sum_{\nu_\mathrm{separation}}^{3800~\mathrm{cm^{-1}}} k
+\end{align}
+Subsequently, the intensity ratio $r_\mathrm{EtOH}$, which shall be correlated to the molar fraction of ethanol $x_\mathrm{EtOH}$, can be calculated.
+\begin{align}
+    r_\mathrm{EtOH}=\frac{I_\mathrm{EtOH}}{I_\mathrm{EtOH}+I_\mathrm{H_2O}}
+\end{align}
+This is done for the results of each of the known mixtures. The calculated intensity ratios are then fitted to the known molar fractions of the mixtures by performing a polynomial regression. The function of the regression is used to calculate the molar fraction corresponding to the signal intensity of the unknown mixture. At last, the volumetric concentration of ethanol $x_\mathrm{V,EtOH}$ in the unknown mixture is computed using the following formula.
+\begin{align}
+    x_\mathrm{V,EtOH}=\frac{M_\mathrm{EtOH}}{\rho_\mathrm{EtOH}} \cdot \bigg[ \frac{M_\mathrm{EtOH}}{\rho_\mathrm{EtOH}} + \frac{(1-x_\mathrm{EtOH}) \cdot M_\mathrm{H_2O}}{x_\mathrm{EtOH} \cdot \rho_\mathrm{H_2O}} \bigg]^{-1}
+\end{align}
+
+\subsection{Measurement of the temperature}
+
+The data processing of temperature curves and data is rather short. The spectra have to be area-normalized to make them comparable over the curve area ratios. This is realized by dividing each spectral measured intensity through the sum of all data points (equivalent to the integral, due to the integrating CCD behavior). The limits are set to
+\begin{align}
+    A_\mathrm{left}&= [2600~\mathrm{cm^{-1}},~\Delta \tilde{v}_\mathrm{isosbestic}]\nonumber \\
+    A_\mathrm{right}&= [\Delta \tilde{v}_\mathrm{isosbestic},~3800~\mathrm{cm^{-1}}]\nonumber .
+\end{align}
+The middle limit, the isosbestic point, is calculated from the minimum of the standard deviation of all the recorded area-normalized temperature spectra. This procedure is similar to \autoref{subsec:spec-eval}. The ratio of $A_\mathrm{right}$ to $A_\mathrm{left}$ is then calculated. Inserting this ratio into a polynomial fitted temperature calibration curve\footnote{given from the supervisor}, the temperature of the liquid can be observed. This can then be compared to the measured temperature from the thermocouple K. For comparison, a temperature over time plot with the measurement from both thermocouple and Raman, in addition to the mean error and the mean squared error are useful.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \chapter{Results}
 \label{chap:results}
+
+In this chapter, the data acquired during the experiment is briefly presented and evaluated according to the respective task. The raw data of both experiments can be found in the Excel files submitted with this work.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Data presentation and preparation}
@@ -44,10 +228,43 @@ The following theoretical basics are summarized from the standard literature in 
 \subsection*{Species determination}
 \label{subsec:spec-prep}
 
+As per the assignment, the signal intensities are to be accumulated in the range from $2600$ to $3800 \mathrm{cm^{-1}}$. The cut-off wavenumber separates the ethanol from the water peak. Plotting all measured spectra in a single diagram (e.g. \autoref{fig:spectra}), it appears that this separation lies between $3000$ and $3100 \mathrm{cm^{-1}}$.
+
+\begin{figure}[!htb]
+    \centering
+    \input{images/02kapitel/spectra.pgf}
+    \caption[Plot of Raman signal spectra over Raman shift]{Raman signal spectrum over the Raman shift $\Delta \tilde{v}$; for simplification purposes only the extreme spectrums for $x=0.0$ and $x=0.0$ are selected in addition to the unknown species}
+    \label{fig:spectra}
+\end{figure}
+
+The standard deviation is used to determine the exact separation wavenumber. This is done by computing the standard deviation of all eleven measured signal intensities at each wavenumber in that range. The wavenumber where the lowest standard deviation of signal intensities is then selected to separate the integration ranges. The result of this process is depicted in \autoref{fig:intersec}, which shows that the separation wavelength lies at $3060 \mathrm{cm^{-1}}$.
+
+\begin{figure}[!htb]
+    \centering
+    \input{images/02kapitel/stw.pgf}
+    \caption[Determination of the species spectra intersection point]{Plot of standard deviation in the estimated window of intersection for determination of integration limits}
+    \label{fig:intersec}
+\end{figure}
+
+The integration limits used in the evaluation are listed in \autoref{tab:integ-limits}.
+
+\begin{table}[!htb]
+    \centering
+    \caption{Integration limits for species determination out of Raman spectra}
+    \label{tab:integ-limits}
+    \vspace{12pt}
+    \begin{tabular}{|l|l|l|}
+        \cline{2-3}
+        \multicolumn{1}{l|}{} & lower limit in $\mathrm{cm^{-1}}$ & upper limit in $\mathrm{cm^{-1}}$ \\ \hline
+        ethanol & $2600$ & $3060$ \\ \hline
+        water & $3060$ & $3800$ \\ \hline
+    \end{tabular}
+\end{table}
+
 \subsection*{Temperature calculation}
 \label{subsec:temp-prep}
 
-The raw data of the intesity spectrum over the Raman shift can be obtained in \autoref{fig:plot-temp-raw}. 
+The raw data of the intensity spectrum over the Raman shift can be obtained in \autoref{fig:plot-temp-raw}. 
 
 \begin{figure}[!htb]
     \centering
@@ -55,25 +272,63 @@ The raw data of the intesity spectrum over the Raman shift can be obtained in \a
     \caption[Absolute Raman shift intensities for the lowest and highest temperatures]{Plot of the absolute scattering intensities over the Raman shift $\Delta \tilde{v}$; Plot at the highest recorded temperature and the lowest recorded temperature for simplification purposes}
     \label{fig:plot-temp-raw}
 \end{figure}
-% \mycomment[MK]{Insert unit axis}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Evaluation and error discussion}
 \label{sec:eval}
 
-\subsection*{Species determination}
+\subsection{Species determination}
 \label{subsec:spec-eval}
 
-\commenting{
-    Text and data from JP.
+Per the strategy described in \autoref{subsec:spec-prep} the signal of both peaks is integrated by building the sum of all counts inside the integration limits. The resulting overall signal intensities as well as intensity ratios are shown in \autoref{tab:intensity-results}.
 
-    Plots need to be integrated.
-}
+\begin{table}[!htb]
+    \centering
+    \small
+    \caption[Signal intensities and signal ratios between water and ethanol]{Signal intensities and signal ratios between water and ethanol; varying through the ethanol molar fraction}
+    \label{tab:intensity-results}
+    \vspace{12pt}
+    \begin{tabular}{|r|l|l|l|}
+        \hline
+        \rowcolor{lightgray} molar fraction ethanol & sum Signal ethanol & sum Signal water & signal ratio ethanol \\ \hline \hline
+        0	    & 374133	& 13698110  & 0,027 \\ \hline
+        0,1	    & 3686057	& 10337346  & 0,263 \\ \hline
+        0,2	    & 5804785	& 8997484	& 0,392 \\ \hline
+        0,4	    & 6818451	& 5478049	& 0,555 \\ \hline
+        0,6	    & 9704362	& 4386522	& 0,689 \\ \hline
+        0,8	    & 12475955	& 3986685	& 0,758 \\ \hline
+        1	    & 11514452	& 2688848	& 0,811 \\ \hline
+        \itshape{unknown}	& 7145657	& 7993031	& 0,472 \\ \hline
+    \end{tabular}
+\end{table}
 
-\subsection*{Temperature calculation}
+As the intensity rations do not equal the molar fractions exactly, the two are plotted against each other and a linear regression through the origin of the coordinate system is performed (see \autoref{fig:calibration}). The function
+\begin{align}
+    r_\mathrm{EtOH}=0.976 \cdot x_\mathrm{EtOH} \nonumber
+\end{align}
+describes the relation between both with a correlation coefficient of $R^2=0.95$. To determine the ethanol content of the unknown mixture, the function is rearranged, and the intensity ratio is inserted.
+
+\begin{align}
+    x_\mathrm{EtOH,unknown}=\frac{r_\mathrm{EtOH}}{0.976}=\frac{0.472}{0.976}=0.484\approx0.5 \nonumber
+\end{align}
+
+\begin{figure}[!htb]
+    \centering
+    \input{images/02kapitel/calibration.pgf}
+    \caption[Plot of calibration measurement with linear fit]{Discrete points of calibration measurement path A and B; in orange the approximated linear fit through the origin for determination of the ethanol content}
+    \label{fig:calibration}
+\end{figure}
+
+With the molar fraction known, the volume fraction can be computed according to the formula in \autoref{subsec:spec-eval}. Inserting the given molar masses, densities, and the calculated molar fraction results in a volume fraction of $x_\mathrm{V,EtOH}=0.75$.
+
+The accuracy of the calculated molar and volume fractions is dependent on the fitness of the calibration curve. Inaccuracies during the calibration measurements lead to systematic errors in the calculations. In this case, the linear regression has a correlation coefficient of $0.95$. Thus, slight errors are expected, and the accuracy of the measurement is limited. Especially in the proximity of the unknown sample ($x_\mathrm{EtOH,unknown} \approx 0.5$), the regression function deviates significantly from the measured values, as is depicted in \autoref{fig:calibration}. Apart from the inaccuracies stemming from the optical components and the spectrometer, the homogeneity and placement of the sample may affect the accuracy of the measurements too.
+
+The quality of the calibration could be improved by recording multiple spectra per known mixture, while using a fixed placement for the cuvettes and shaking them in between measurements. As all measurements were performed at room temperature and the samples acclimatized, the influence of temperature differences can be neglected.
+
+\subsection{Temperature calculation}
 \label{subsec:temp-eval}
 
-The plot of the change of scattered intensities over the Raman shift is illustrated in \autoref{fig:plot-temp}. The isosbestic point can be determined at roughly $3390 \mathrm{cm^{-1}}$, via the lowest standard deviation of all the normalized data sets. The areas can be interpreted as the integration of the curve within the boundaries $[3390~\mathrm{cm^{-1}},~3800~\mathrm{cm^{-1}}]$ for $A_\mathrm{right}$, and $[2600~\mathrm{cm^{-1}},~3390~\mathrm{cm^{-1}}]$ for $A_\mathrm{left}$. Due to the already integrating behavior of the CCD sensor, it is calculated as the sum of all data points within the presented ranges.
+The plot of the change of scattered intensities over the Raman shift is illustrated in \autoref{fig:plot-temp}. The isosbestic point can be determined at roughly $3390 \mathrm{cm^{-1}}$, via the lowest standard deviation of all the normalized data sets (similar to \autoref{subsec:spec-eval}). The areas can be interpreted as the integration of the curve within the boundaries $[3390~\mathrm{cm^{-1}},~3800~\mathrm{cm^{-1}}]$ for $A_\mathrm{right}$, and $[2600~\mathrm{cm^{-1}},~3390~\mathrm{cm^{-1}}]$ for $A_\mathrm{left}$. Due to the already integrating behavior of the CCD sensor, it is calculated as the sum of all data points within the presented ranges.
 
 \begin{figure}[!htb]
     \centering
@@ -88,7 +343,7 @@ With the record of a temperature calibration curve, a function with the form
 \begin{align}
     T(x)=42.1 \cdot x^3 - 200.5 \cdot x^2 + 412.4 \cdot x -233.7
 \end{align}
-can be fitted to calculate the temperature of the liquid through putting in the area ratios $x$. The in between results and the final temperature for the highest and the lowest temperature curve are shown in \autoref{tab:temp}. Compared to the measurement with the thermocouple K, there is a mean error of $3.46~\mathrm{K}$, and a mean squared error of $12.83~\mathrm{K}$ over all measurements.
+can be fitted to calculate the temperature of the liquid by putting in the area ratios $x$. The in-between results and the final temperature for the highest and the lowest temperature curves are shown in \autoref{tab:temp}. Compared to the measurement with the thermocouple K, there is a mean error of $3.46~\mathrm{K}$ and a mean squared error of $12.83~\mathrm{K}$ overall measurements.
 
 \begin{table}[!htb]
     \centering
@@ -113,4 +368,4 @@ can be fitted to calculate the temperature of the liquid through putting in the 
     \label{fig:plot-temp-time}
 \end{figure}
 
-\mycomment[MK]{Error discussion Temp missing}
+With a mean error of $3.46~\mathrm{K}$ the temperature measured by Raman spectroscopy is slightly higher than from the thermocouple. As in \autoref{fig:plot-temp-time} obtainable, the error occurs systematically over the complete temperature and time spectrum. In addition, one can see the temporal resolution is very comparable. The slow addition of water, as well as the fast intermixing, looks identical, also in the temperature gradient. From this observation, an exclusive systematic error is assumable. Such an error cannot be a high resistance of the thermocouple wire, due to the calibration measurement. This error could then just occur if another thermocouple was used for the calibration measurement. A temperature gradient over the height of the beaker can lead to this deviation if the thermocouple is placed at significant positioning differences. Because a stirring fish is used, this seems unlikely as well, but cannot be neglected. The fluid flow would be dominant tangential in every plane parallel to the ground. Intermixing of different heights is not produced in the first point. This thesis would be supported by the low deviation at the beginning of the experiment and the expected higher temperature gradient at higher temperatures, but leaving a remaining error of approx. $50\%$. Improving this assumption would be a deeper implementation of the thermocouple head, so that the height difference is more neglectable, due to the better heat transfer rate of metal compared to water. Further, a slight offset of the focal point from a good intermixed fluid point and the center can lead to a systematic error. Nevertheless a rest-error of $\approx 2~\mathrm{K}$ can be seen as satisfying.

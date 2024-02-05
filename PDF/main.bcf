@@ -2349,19 +2349,28 @@
   </bcf:bibdata>
   <bcf:section number="0">
     <bcf:citekey order="1">brauerApplicationRamanSpectroscopy2022</bcf:citekey>
-    <bcf:citekey order="2">bornPrinciplesOpticsElectromagnetic1999</bcf:citekey>
-    <bcf:citekey order="2">hechtOptik2005</bcf:citekey>
-    <bcf:citekey order="2">lipsonOptik1997</bcf:citekey>
-    <bcf:citekey order="2">niedrigOptikWellenUnd2004</bcf:citekey>
-    <bcf:citekey order="3">herzbergMolecularSpectraMolecular2013</bcf:citekey>
-    <bcf:citekey order="3">schraderInfraredRamanSpectroscopy1995</bcf:citekey>
-    <bcf:citekey order="4">brauerApplicationRamanSpectroscopy2022</bcf:citekey>
-    <bcf:citekey order="5">bornPrinciplesOpticsElectromagnetic1999</bcf:citekey>
-    <bcf:citekey order="6">hechtOptik2005</bcf:citekey>
-    <bcf:citekey order="7">lipsonOptik1997</bcf:citekey>
-    <bcf:citekey order="8">niedrigOptikWellenUnd2004</bcf:citekey>
-    <bcf:citekey order="9">herzbergMolecularSpectraMolecular2013</bcf:citekey>
-    <bcf:citekey order="10">schraderInfraredRamanSpectroscopy1995</bcf:citekey>
+    <bcf:citekey order="2">brauerApplicationRamanSpectroscopy2022</bcf:citekey>
+    <bcf:citekey order="3">bornPrinciplesOpticsElectromagnetic1999</bcf:citekey>
+    <bcf:citekey order="3">hechtOptik2005</bcf:citekey>
+    <bcf:citekey order="3">lipsonOptik1997</bcf:citekey>
+    <bcf:citekey order="3">niedrigOptikWellenUnd2004</bcf:citekey>
+    <bcf:citekey order="4">herzbergMolecularSpectraMolecular2013</bcf:citekey>
+    <bcf:citekey order="4">schraderInfraredRamanSpectroscopy1995</bcf:citekey>
+    <bcf:citekey order="5">brauerApplicationRamanSpectroscopy2022</bcf:citekey>
+    <bcf:citekey order="6">brauerApplicationRamanSpectroscopy2022</bcf:citekey>
+    <bcf:citekey order="7">brauerApplicationRamanSpectroscopy2022</bcf:citekey>
+    <bcf:citekey order="8">brauerApplicationRamanSpectroscopy2022</bcf:citekey>
+    <bcf:citekey order="9">brauerApplicationRamanSpectroscopy2022</bcf:citekey>
+    <bcf:citekey order="10">brauerApplicationRamanSpectroscopy2022</bcf:citekey>
+    <bcf:citekey order="11">brauerApplicationRamanSpectroscopy2022</bcf:citekey>
+    <bcf:citekey order="12">brauerApplicationRamanSpectroscopy2022</bcf:citekey>
+    <bcf:citekey order="13">brauerApplicationRamanSpectroscopy2022</bcf:citekey>
+    <bcf:citekey order="14">bornPrinciplesOpticsElectromagnetic1999</bcf:citekey>
+    <bcf:citekey order="15">hechtOptik2005</bcf:citekey>
+    <bcf:citekey order="16">lipsonOptik1997</bcf:citekey>
+    <bcf:citekey order="17">niedrigOptikWellenUnd2004</bcf:citekey>
+    <bcf:citekey order="18">herzbergMolecularSpectraMolecular2013</bcf:citekey>
+    <bcf:citekey order="19">schraderInfraredRamanSpectroscopy1995</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

@@ -1,19 +1,30 @@
 \babel@toc {english}{}\relax 
-\contentsline {chapter}{\nonumberline List of Figures}{III}{chapter*.3}%
-\contentsline {chapter}{\nonumberline List of Tables}{IV}{chapter*.4}%
+\contentsline {chapter}{\nonumberline List of Figures}{III}{chapter*.2}%
+\contentsline {chapter}{\nonumberline List of Tables}{IV}{chapter*.3}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \contentsline {chapter}{\numberline {2}Theoretical basics}{2}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Molecule - light interactions}{2}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Scattering effects}{2}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Measurement of different phisical properties - RAMAN spectroscopy}{2}{section.2.3}%
-\contentsline {chapter}{\numberline {3}Experimental setup}{3}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Used equipment}{3}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Measurement setup and preparations}{3}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Expectations}{3}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Execution}{3}{section.3.4}%
-\contentsline {chapter}{\numberline {4}Results}{4}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Data presentation and preparation}{4}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Evaluation and error discussion}{4}{section.4.2}%
-\contentsline {chapter}{\numberline {5}Summary}{7}{chapter.5}%
-\contentsline {chapter}{\nonumberline Bibliography}{V}{chapter*.14}%
+\contentsline {section}{\numberline {2.1}Properties of light}{2}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Properties of molecules}{2}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Electronic energy states}{3}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Vibrational energy states}{3}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Rotational energy states}{4}{subsection.2.2.3}%
+\contentsline {section}{\numberline {2.3}Photon-molecule interactions}{5}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Flourescence}{6}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Infrared absorption}{6}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Scattering effects}{7}{subsection.2.3.3}%
+\contentsline {chapter}{\numberline {3}Experimental setup}{9}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Measurement setup and preparations}{9}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Execution}{10}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Determination of the alcohol content of an unknown liquid}{10}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Measurement of the temperature}{11}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}Evaluation strategy}{12}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Determination of the alcohol content of an unknown liquid}{12}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Measurement of the temperature}{13}{subsection.3.3.2}%
+\contentsline {chapter}{\numberline {4}Results}{14}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Data presentation and preparation}{14}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Evaluation and error discussion}{15}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Species determination}{15}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Temperature calculation}{18}{subsection.4.2.2}%
+\contentsline {chapter}{\numberline {5}Summary}{22}{chapter.5}%
+\contentsline {chapter}{\nonumberline Bibliography}{V}{chapter*.24}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

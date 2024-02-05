@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.8)  31 JAN 2024 22:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.8)  5 FEB 2024 10:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -42,6 +42,12 @@ Package: tocbasic 2021/11/13 v3.35 KOMA-Script package (handling toc-files)
 )
 Package tocbasic Info: babel extension for `toc' omitted
 (tocbasic)             because of missing \bbl@set@language on input line 137.
+Class scrreprt Info: You've used standard option `final'.
+(scrreprt)           This is correct!
+(scrreprt)           Internally I'm using `draft=false'.
+(scrreprt)           If you'd like to set the option with \KOMAoptions,
+(scrreprt)           you'd have to use `draft=false' there
+(scrreprt)           instead of `final', too.
 Package scrreprt Info: You've used standard option `12pt'.
 (scrreprt)             This is correct!
 (scrreprt)             Internally I'm using `fontsize=12pt'.
@@ -122,7 +128,7 @@ Package typearea Info: These are the values describing the layout:
 (typearea)              \headheight     = 20.0pt
 (typearea)              \headsep        = 21.75pt
 (typearea)              \topskip        = 12.0pt
-(typearea)              \footskip       = 42.625pt
+(typearea)              \footskip       = 44.625pt
 (typearea)              \baselineskip   = 14.5pt
 (typearea)              on input line 1743.
 )
@@ -877,8 +883,6 @@ Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
 \AP@footins=\box96
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/koma-script/scrtime.sty
 Package: scrtime 2021/11/13 v3.35 KOMA-Script package (time of LaTeX run)
-) (/usr/local/texlive/2022/texmf-dist/tex/latex/prelim2e/prelim2e.sty
-Package: prelim2e 2020/11/24 v2.0 prelim2e Package
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/todonotes/todonotes.sty
 Package: todonotes 2021/06/04 v1.1.5 Todonotes source and documentation.
 Package: todonotes 2021/06/04
@@ -941,6 +945,7 @@ File: puenc.def 2022-02-21 v7.00n Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
+Package hyperref Info: Option `final' set `true' on input line 4018.
 Package hyperref Info: Option `pdfdisplaydoctitle' set `true' on input line 4018.
 Package hyperref Info: Hyper figures OFF on input line 4137.
 Package hyperref Info: Link nesting OFF on input line 4142.
@@ -1411,7 +1416,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * \headheight=20.0pt
 * \headsep=21.75pt
 * \topskip=12.0pt
-* \footskip=14.22636pt
+* \footskip=28.45274pt
 * \marginparwidth=71.13188pt
 * \marginparsep=12.8401pt
 * \columnsep=10.0pt
@@ -1499,7 +1504,7 @@ Package scrlayer-scrpage Warning: Very small foot height detected!
 (scrlayer-scrpage)                Using scrlayer-scrpage the foot height
 (scrlayer-scrpage)                should be at least \baselineskip, which is
 (scrlayer-scrpage)                17.99446pt currently.
-(scrlayer-scrpage)                But foot height is currently 10.0pt only.
+(scrlayer-scrpage)                But foot height is currently 12.0pt only.
 (scrlayer-scrpage)                You may use
 (scrlayer-scrpage)                typearea option `footheight=17.99446pt'
 (scrlayer-scrpage)                \relax to avoid this warning.
@@ -1536,49 +1541,29 @@ Overfull \hbox (11.6853pt too wide) in paragraph at lines 8--18
 []$[]$ $[]$ 
  []
 
-
-Overfull \vbox (7.51999pt too high) has occurred while \output is active []
-
- [1
+[1
 
 
 
-{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./images//fausiegel.pdf> <./images//ltt_logo.png>]) (PDF/main.tdo)
-\tf@tdo=\write5
-\openout5 = `main.tdo'.
-
-
-Overfull \vbox (7.51999pt too high) has occurred while \output is active []
-
- [2
-
-]
+{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./images//fausiegel.pdf> <./images//ltt_logo.png>])
 Package tocbasic Info: character protrusion at toc deactivated on input line 62.
  (PDF/main.toc)
-\tf@toc=\write6
-\openout6 = `main.toc'.
-
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.II}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.64 			\cleardoublepage
-                        
-Overfull \vbox (7.51999pt too high) has occurred while \output is active []
+\tf@toc=\write5
+\openout5 = `main.toc'.
 
  [2
 
 ]
 Package tocbasic Info: character protrusion at lof deactivated on input line 73.
  (PDF/main.lof)
-\tf@lof=\write7
-\openout7 = `main.lof'.
+\tf@lof=\write6
+\openout6 = `main.lof'.
 
 
 
 Package scrlayer-scrpage Warning: \footheight to low.
 (scrlayer-scrpage)                At least 17.99445pt needed,
-(scrlayer-scrpage)                but only 10.0pt found.
+(scrlayer-scrpage)                but only 12.0pt found.
 (scrlayer-scrpage)                I'll enlarge \footheight, for further
 (scrlayer-scrpage)                processing, but you should do this yourself,
 (scrlayer-scrpage)                e.g., using
@@ -1586,10 +1571,7 @@ Package scrlayer-scrpage Warning: \footheight to low.
 (scrlayer-scrpage)                in your preamble.
 (scrlayer-scrpage)                I'll also increase \footskip on input line 76.
 
-
-Overfull \vbox (7.51999pt too high) has occurred while \output is active []
-
- [3
+[3
 
 
 
@@ -1597,11 +1579,8 @@ Overfull \vbox (7.51999pt too high) has occurred while \output is active []
 ]
 Package tocbasic Info: character protrusion at lot deactivated on input line 77.
  (PDF/main.lot)
-\tf@lot=\write8
-\openout8 = `main.lot'.
-
-
-Overfull \vbox (7.51999pt too high) has occurred while \output is active []
+\tf@lot=\write7
+\openout7 = `main.lot'.
 
  [4
 
@@ -1623,71 +1602,212 @@ Class scrreprt Warning: \float@addtolists detected!
 (scrreprt)              a package that still implements the
 (scrreprt)              deprecated \float@addtolist interface.
 
-) (./content/02kapitel.tex
-Overfull \vbox (7.51999pt too high) has occurred while \output is active []
-
- [1
+) (./content/02kapitel.tex [1
 
 
 
 ]
 chapter 2.
-
-Overfull \vbox (7.51999pt too high) has occurred while \output is active []
-
- [2
+[2
 
 ]
-chapter 3.
+<images//02kapitel/energy-states.png, id=175, 455.7025pt x 341.275pt>
+File: images//02kapitel/energy-states.png Graphic file (type png)
+<use images//02kapitel/energy-states.png>
+Package pdftex.def Info: images//02kapitel/energy-states.png  used on input line 38.
+(pdftex.def)             Requested size: 273.14928pt x 204.56348pt.
+<images//02kapitel/vib-states.png, id=178, 454.69875pt x 636.3775pt>
+File: images//02kapitel/vib-states.png Graphic file (type png)
+<use images//02kapitel/vib-states.png>
+Package pdftex.def Info: images//02kapitel/vib-states.png  used on input line 51.
+(pdftex.def)             Requested size: 318.66953pt x 446.00499pt.
 
-Overfull \vbox (7.51999pt too high) has occurred while \output is active []
-
- [3
-
-]
-chapter 4.
-(./images/02kapitel/temp_data_raw.pgf)
-Overfull \vbox (7.51999pt too high) has occurred while \output is active []
-
- [4
-
-] (./images/02kapitel/temp_data_norm.pgf)
 
 LaTeX Font Warning: Font shape `T1/bch/m/scsl' undefined
-(Font)              using `T1/bch/m/sc' instead on input line 107.
+(Font)              using `T1/bch/m/sc' instead on input line 57.
+
+[3 <./images//02kapitel/energy-states.png>]
+<images//02kapitel/anharmonic-osz.png, id=188, 456.20438pt x 405.01312pt>
+File: images//02kapitel/anharmonic-osz.png Graphic file (type png)
+<use images//02kapitel/anharmonic-osz.png>
+Package pdftex.def Info: images//02kapitel/anharmonic-osz.png  used on input line 60.
+(pdftex.def)             Requested size: 318.66953pt x 282.92014pt.
 
 
-Overfull \vbox (7.51999pt too high) has occurred while \output is active []
+LaTeX Font Warning: Font shape `T1/bch/m/scsl' undefined
+(Font)              using `T1/bch/m/sc' instead on input line 72.
 
- [5] (./images/02kapitel/temp_time.pgf)
-Package hyperref Info: bookmark level for unknown todo defaults to 0 on input line 116.
+[4 <./images//02kapitel/vib-states.png>]
+<images//02kapitel/rot-states.png, id=200, 456.20438pt x 231.86626pt>
+File: images//02kapitel/rot-states.png Graphic file (type png)
+<use images//02kapitel/rot-states.png>
+Package pdftex.def Info: images//02kapitel/rot-states.png  used on input line 77.
+(pdftex.def)             Requested size: 364.19672pt x 185.1076pt.
+
+
+Package caption Warning: Ignoring optional argument [c] of \setcapwidth
+(caption)                 on input line 90.
+See the caption package documentation for explanation.
+
+<images//02kapitel/flourescence.png, id=202, 144.54pt x 225.84375pt>
+File: images//02kapitel/flourescence.png Graphic file (type png)
+<use images//02kapitel/flourescence.png>
+Package pdftex.def Info: images//02kapitel/flourescence.png  used on input line 92.
+(pdftex.def)             Requested size: 136.57463pt x 213.40967pt.
+
+Underfull \hbox (badness 7486) in paragraph at lines 93--93
+[][]|\T1/bch/m/n/10.95 (+20) Po-ten-tial en-ergy curve
+ []
+
+
+Underfull \hbox (badness 1297) in paragraph at lines 93--93
+\T1/bch/m/n/10.95 (+20) with scheme of flu-o-res-
+ []
+
+
+LaTeX Font Warning: Font shape `T1/bch/m/scsl' undefined
+(Font)              using `T1/bch/m/sc' instead on input line 96.
+
+[5 <./images//02kapitel/anharmonic-osz.png>]
+
+LaTeX Font Warning: Font shape `T1/bch/m/scsl' undefined
+(Font)              using `T1/bch/m/sc' instead on input line 101.
+
+[6 <./images//02kapitel/rot-states.png> <./images//02kapitel/flourescence.png>]
+<images//02kapitel/scattering.png, id=216, 455.7025pt x 327.2225pt>
+File: images//02kapitel/scattering.png Graphic file (type png)
+<use images//02kapitel/scattering.png>
+Package pdftex.def Info: images//02kapitel/scattering.png  used on input line 108.
+(pdftex.def)             Requested size: 364.19672pt x 261.5187pt.
+
+
+LaTeX Font Warning: Font shape `T1/bch/m/scsl' undefined
+(Font)              using `T1/bch/m/sc' instead on input line 114.
+
+[7 <./images//02kapitel/scattering.png>]
+
+LaTeX Font Warning: Font shape `T1/bch/m/scsl' undefined
+(Font)              using `T1/bch/m/sc' instead on input line 119.
+
+[8]
+chapter 3.
+<images//02kapitel/raman-gun.png, id=228, 455.7025pt x 266.9975pt>
+File: images//02kapitel/raman-gun.png Graphic file (type png)
+<use images//02kapitel/raman-gun.png>
+Package pdftex.def Info: images//02kapitel/raman-gun.png  used on input line 131.
+(pdftex.def)             Requested size: 364.19672pt x 213.38641pt.
+LaTeX Font Info:    Trying to load font information for TS1+bch on input line 136.
+(/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/ts1bch.fd
+File: ts1bch.fd 2004/10/18 font definitions for TS1/bch.
+) [9
+
+ <./images//02kapitel/raman-gun.png>]
+
+LaTeX Font Warning: Font shape `T1/bch/m/scsl' undefined
+(Font)              using `T1/bch/m/sc' instead on input line 173.
+
+[10]
+<images//02kapitel/temp-raman.png, id=244, 653.44125pt x 487.8225pt>
+File: images//02kapitel/temp-raman.png Graphic file (type png)
+<use images//02kapitel/temp-raman.png>
+Package pdftex.def Info: images//02kapitel/temp-raman.png  used on input line 183.
+(pdftex.def)             Requested size: 273.14928pt x 203.91638pt.
+
+
+LaTeX Font Warning: Font shape `T1/bch/m/scsl' undefined
+(Font)              using `T1/bch/m/sc' instead on input line 196.
+
+[11]
+
+LaTeX Font Warning: Font shape `T1/bch/m/scsl' undefined
+(Font)              using `T1/bch/m/sc' instead on input line 205.
+
+[12 <./images//02kapitel/temp-raman.png>]
+
+LaTeX Font Warning: Font shape `T1/bch/m/scsl' undefined
+(Font)              using `T1/bch/m/sc' instead on input line 220.
+
+[13]
+chapter 4.
+(./images/02kapitel/spectra.pgf)
+Overfull \hbox (7.28339pt too wide) in paragraph at lines 1094--236
+ [][] 
+ []
+
+(./images/02kapitel/stw.pgf)
+Overfull \hbox (7.28339pt too wide) in paragraph at lines 801--245
+ [][] 
+ []
+
+(./images/02kapitel/temp_data_raw.pgf)
+Overfull \hbox (7.28339pt too wide) in paragraph at lines 1075--272
+ [][] 
+ []
+
+[14
+
+]
+
+LaTeX Font Warning: Font shape `T1/bch/m/scsl' undefined
+(Font)              using `T1/bch/m/sc' instead on input line 311.
+
+[15]
+
+LaTeX Font Warning: Font shape `T1/bch/m/scsl' undefined
+(Font)              using `T1/bch/m/sc' instead on input line 311.
+
+[16] (./images/02kapitel/calibration.pgf)
+Overfull \hbox (7.28339pt too wide) in paragraph at lines 737--318
+ [][] 
+ []
+
+
+LaTeX Font Warning: Font shape `T1/bch/m/scsl' undefined
+(Font)              using `T1/bch/m/sc' instead on input line 326.
+
+[17] (./images/02kapitel/temp_data_norm.pgf)
+Overfull \hbox (7.28339pt too wide) in paragraph at lines 999--337
+ [][] 
+ []
+
+
+LaTeX Font Warning: Font shape `T1/bch/m/scsl' undefined
+(Font)              using `T1/bch/m/sc' instead on input line 339.
+
+[18] (./images/02kapitel/temp_time.pgf)
+Overfull \hbox (7.28339pt too wide) in paragraph at lines 987--367
+ [][] 
+ []
+
 ) (./content/03kapitel.tex
+
+LaTeX Font Warning: Font shape `T1/bch/m/scsl' undefined
+(Font)              using `T1/bch/m/sc' instead on input line 2.
+
+[19]
+
+LaTeX Font Warning: Font shape `T1/bch/m/scsl' undefined
+(Font)              using `T1/bch/m/sc' instead on input line 2.
+
+[20]
 
 LaTeX Font Warning: Font shape `T1/bch/m/scsl' undefined
 (Font)              using `T1/bch/m/sc' instead on input line 3.
 
-
-Overfull \vbox (7.51999pt too high) has occurred while \output is active []
-
- [6]
+[21]
 chapter 5.
 )
-Overfull \vbox (7.51999pt too high) has occurred while \output is active []
+Overfull \hbox (137.16486pt too wide) in paragraph at lines 6--101
+\T1/bch/m/n/12 (-20) er-ror can be quan-ti-fied and min-i-mized.                                                                                                    
+ []
 
- [7
-
-]
-Overfull \vbox (7.51999pt too high) has occurred while \output is active []
-
- [8
+[22
 
 ]
 chapter without number
 No complaints by nag.
+[5
 
-Overfull \vbox (7.51999pt too high) has occurred while \output is active []
-
- [5
 
 ] (PDF/main.aux)
 Package logreq Info: Writing requests to 'main.run.xml'.
@@ -1695,18 +1815,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 58466 strings out of 478268
- 1324093 string characters out of 5846347
- 2381590 words of memory out of 5000000
- 75394 multiletter control sequences out of 15000+600000
- 530057 words of font info for 172 fonts, out of 8000000 for 9000
+ 58676 strings out of 478268
+ 1327131 string characters out of 5846347
+ 2389479 words of memory out of 5000000
+ 75420 multiletter control sequences out of 15000+600000
+ 547180 words of font info for 259 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 113i,21n,109p,10669b,2469s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/bitstrea/charter/bchri8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on PDF/main.pdf (14 pages, 624617 bytes).
+ 113i,20n,109p,10669b,2469s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/bitstrea/charter/bchri8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on PDF/main.pdf (27 pages, 1222529 bytes).
 PDF statistics:
- 283 PDF objects out of 1000 (max. 8388607)
- 226 compressed objects within 3 object streams
- 51 named destinations out of 1000 (max. 500000)
- 55455 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 505 PDF objects out of 1000 (max. 8388607)
+ 409 compressed objects within 5 object streams
+ 98 named destinations out of 1000 (max. 500000)
+ 67359 words of extra memory for PDF output out of 74296 (max. 10000000)
 
