@@ -27,11 +27,11 @@ The wavenumber $\nu$ is used to quantify the energy of a photon in a simple mann
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Properties of molecules}
 
-Apart from translational energy, which has no influence on light-molecule interactions, molecules can occupy a discrete set of energetic states that are characterized by the electronic, vibrational, and rotational quantum numbers $n$, $v$, and $J$ respectively.
+Apart from translational energy, which does not influence light-molecule interactions, molecules can occupy a discrete set of energetic states that are characterized by the electronic, vibrational, and rotational quantum numbers $n$, $v$, and $J$ respectively.
 
 \subsection{Electronic energy states}
 
-The largest energy differences can be found between the electronic the electronic energy states, which are quantified by the principal quantum number n. A shift in the electronic state is much bigger than the difference between a pair of vibrational levels. The energy gap between two neighboring rotational states is the smallest. \autoref{fig:energy-states} illustrates the distribution of the different energetic states.
+The largest energy differences can be found between the electronic energy states, which are quantified by the principal quantum number n. A shift in the electronic state is much bigger than the difference between a pair of vibrational levels. The energy gap between two neighboring rotational states is the smallest. \autoref{fig:energy-states} illustrates the distribution of the different energetic states.
 
 \begin{figure}[!htb]
     \centering
@@ -53,7 +53,7 @@ As a molecule consists of multiple interconnected atoms it can perform several t
     \label{fig:vib-states}
 \end{figure}
 
-It should also be noted that the vibration of a molecule is best described by the model of an anharmonic oscillator, due to the binding forces between the atoms diminishing as their distance increases. This effect dampens the vibration of the molecule which is why a harmonic oscillator does not allow for an accurate description of the energy levels. The dampening also leads to a diminishing energy difference between neighboring energy levels as the vibrational quantum number $\nu$ increases. In \autoref{fig:anharmonic-osz} both models are compared. The dampening effect of the anharmonic oscillator is 
+It should also be noted that the vibration of a molecule is best described by the model of an anharmonic oscillator, due to the binding forces between the atoms diminishing as their distance increases. This effect dampens the vibration of the molecule which is why a harmonic oscillator does not allow for an accurate description of the energy levels. The dampening also leads to a diminishing energy difference between neighboring energy levels as the vibrational quantum number $\nu$ increases. In \autoref{fig:anharmonic-osz} both models are compared.
 
 \begin{figure}[!htb]
     \centering
@@ -201,7 +201,7 @@ Subsequently, the intensity ratio $r_\mathrm{EtOH}$, which shall be correlated t
 \begin{align}
     r_\mathrm{EtOH}=\frac{I_\mathrm{EtOH}}{I_\mathrm{EtOH}+I_\mathrm{H_2O}}
 \end{align}
-This is done for the results of each of the known mixtures. The calculated intensity ratios are then fitted to the known molar fractions of the mixtures by performing a polynomial regression. The function of the regression is used to calculate the molar fraction corresponding to the signal intensity of the unknown mixture. At last, the volumetric concentration of ethanol $x_\mathrm{V,EtOH}$ in the unknown mixture is computed using the following formula.
+This is done for the results of each of the known mixtures. The calculated intensity ratios are then fitted to the known molar fractions of the mixtures by performing a linear regression. The function of the regression is used to calculate the molar fraction corresponding to the signal intensity of the unknown mixture. At last, the volumetric concentration of ethanol $x_\mathrm{V,EtOH}$ in the unknown mixture is computed using the following formula.
 \begin{align}
     x_\mathrm{V,EtOH}=\frac{M_\mathrm{EtOH}}{\rho_\mathrm{EtOH}} \cdot \bigg[ \frac{M_\mathrm{EtOH}}{\rho_\mathrm{EtOH}} + \frac{(1-x_\mathrm{EtOH}) \cdot M_\mathrm{H_2O}}{x_\mathrm{EtOH} \cdot \rho_\mathrm{H_2O}} \bigg]^{-1}
 \end{align}
