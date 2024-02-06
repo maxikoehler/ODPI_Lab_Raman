@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber PDF/main"] 1707124878 "PDF/main.bcf" "PDF/main.bbl" "PDF/main" 1707168984
-  "PDF/main.bcf" 1707168984 108062 5f0c0ae4f370ea7532864f029fbd4848 "pdflatex"
+["biber PDF/main"] 1707124878 "PDF/main.bcf" "PDF/main.bbl" "PDF/main" 1707231254
+  "PDF/main.bcf" 1707231254 108062 5f0c0ae4f370ea7532864f029fbd4848 "pdflatex"
   "literatur.bib" 1706365114 4715 2fc6f9506e8d6094150fa2b160585ea5 ""
   (generated)
   "PDF/main.bbl"
   "PDF/main.blg"
-["pdflatex"] 1707168980 "/Users/maxikoehler/Documents/GitHub/ODPI_Lab_Raman/main.tex" "PDF/main.pdf" "main" 1707168984
+["pdflatex"] 1707231251 "/Users/maxikoehler/Documents/GitHub/ODPI_Lab_Raman/main.tex" "PDF/main.pdf" "main" 1707231254
   "/Users/maxikoehler/Documents/GitHub/ODPI_Lab_Raman/main.tex" 1707124925 3018 e440bd4f8cf1149f1f074c05b7e8c720 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -347,19 +347,19 @@
   "/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1647878959 4410336 7d30a02e9fa9a16d7d1f8d037ba69641 ""
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1665226849 2826439 2030d744e7ffee018306a67c03bacf0b ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
-  "PDF/main.aux" 1707168983 24498 883042e7a521765ba668c2f2af06c3d0 "pdflatex"
+  "PDF/main.aux" 1707231254 24498 883042e7a521765ba668c2f2af06c3d0 "pdflatex"
   "PDF/main.bbl" 1707124881 11896 9c3e43639d6832551c7983d0a64168bc "biber PDF/main"
-  "PDF/main.lof" 1707168984 2073 b4d9ec543435c38dac0ce33cfbb00b95 "pdflatex"
-  "PDF/main.lot" 1707168984 758 666f0d7bdd6998ca13f5f21d7900e815 "pdflatex"
-  "PDF/main.run.xml" 1707168984 2462 4a6adfd508f9e9087fdb3a1b7049b158 "pdflatex"
-  "PDF/main.toc" 1707168984 2518 b370ed419f75bf52b687ec5e17bf7191 "pdflatex"
+  "PDF/main.lof" 1707231254 2073 b4d9ec543435c38dac0ce33cfbb00b95 "pdflatex"
+  "PDF/main.lot" 1707231254 758 666f0d7bdd6998ca13f5f21d7900e815 "pdflatex"
+  "PDF/main.run.xml" 1707231254 2462 4a6adfd508f9e9087fdb3a1b7049b158 "pdflatex"
+  "PDF/main.toc" 1707231254 2518 b370ed419f75bf52b687ec5e17bf7191 "pdflatex"
   "ads/deckblatt.tex" 1707118788 1546 50d6cbd9826d2d18be46918fea03abb6 ""
   "ads/einstellungen_liste.tex" 1705306741 543 5a5861b9ae910f3d2c1c682693de1cfc ""
   "ads/header.tex" 1707124874 10858 c5f46014874ca62b821b4de8fe1822a9 ""
   "ads/tikz_styles.tex" 1705321451 3020 2df9086a837a96ed7c98cf43c047d72e ""
-  "content/01kapitel.tex" 1707125393 993 30964ad0a20316fa4e9b3210dd9583eb ""
-  "content/02kapitel.tex" 1707168980 32195 7e320a6bbbe1cd267a4c709bb62512f8 ""
-  "content/03kapitel.tex" 1707125502 660 fdc4c402c3b51b4f94fb25df4ceefb44 ""
+  "content/01kapitel.tex" 1707231250 1009 d3a53255d52afe20a95dff87fc042a09 ""
+  "content/02kapitel.tex" 1707231250 32199 419b276a90fef1be7f00903effc8cccf ""
+  "content/03kapitel.tex" 1707231250 763 8e57bbeb9bd09ce85a096d39ba9bcb8a ""
   "einstellungen.tex" 1706720210 12173 c1d4aae452e122f1a8a368b68ecca06f ""
   "images//02kapitel/anharmonic-osz.png" 1707070493 64032 9428934a3a3bf313a240c470e4f8462b ""
   "images//02kapitel/energy-states.png" 1707070121 52327 613843a516307da76d416b74f22a6715 ""
