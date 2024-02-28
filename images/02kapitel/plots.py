@@ -12,7 +12,7 @@ plt.rcParams.update({
     "font.size": 12
 })
 
-# matplotlib.use("pgf")
+matplotlib.use("pgf")
 
 # defining the isosbestic point
 isosbestic_point = 3390
@@ -80,17 +80,17 @@ data_intersec[1:] = data_intersec[1:]/10000
 # plt.close()
 
 # Plot of the determination integration limits
-intersec = data_intersec['stw'].to_list()
-plt.plot(data_intersec.index, intersec, '*', color='orange', label='standard deviation of all spectra')
-plt.legend()
-plt.xlabel('Raman shift $\Delta v$ in $\mathrm{cm}^\mathrm{-1}$')
-plt.ylabel('standard deviation in $10^4$')
-plt.ylim(bottom=0)
-plt.grid()
-plt.savefig('stw.pgf')
-plt.close()
+# intersec = data_intersec['stw'].to_list()
+# plt.plot(data_intersec.index, intersec, '*', color='orange', label='standard deviation of all spectra')
+# plt.legend()
+# plt.xlabel('Raman shift $\Delta v$ in $\mathrm{cm}^\mathrm{-1}$')
+# plt.ylabel('standard deviation in $10^4$')
+# plt.ylim(bottom=0)
+# plt.grid()
+# plt.savefig('stw.pgf')
+# plt.close()
 
-# # Plot of calibration curve
+# # Plot of calibration curve (linear fit)
 # calib_data = data_molar.drop('unknown', axis=0)
 # calib_lst = calib_data['signal_ratio'].tolist()
 # calib_x = [0,0.1,0.2,0.4,0.6,0.8,1]
@@ -103,11 +103,35 @@ plt.close()
 
 # plt.plot(calib_x, calib_lst, '.', label='signal ratio calibration')
 # plt.plot(calib_x, fit_func(calib_x, m), '--', label='fit function')
-# plt.text(0.7, 0.25, 'linear fit:\ny(x)= '+str(np.round(m[0], 3))+' $\cdot$ x')
+# plt.text(0.7, 0.25, 'fit function:\ny(x)= '+str(np.round(m[0], 3))+' $\cdot$ x')
 # plt.legend()
 # plt.grid()
 # plt.xlabel('Molar ethanol content')
 # plt.ylabel('Signal ratio')
 # plt.ylim(bottom=0, top=1.1)
-# plt.savefig('calibration.pgf')
-# plt.close()
+# # plt.savefig('calibration.pgf')
+# plt.show()
+# # plt.close()
+
+# Plot of calibration curve (inverted, polynomial fit)
+calib_data = data_molar.drop('unknown', axis=0)
+calib_x = calib_data['signal_ratio'].tolist()
+calib_lst = [0,0.1,0.2,0.4,0.6,0.8,1]
+
+m = np.polyfit(calib_x, calib_lst, 2)
+
+fit_func = np.poly1d(m)
+fit_x = [0,0.1,0.2,0.4,0.6,0.8,1]
+
+plt.plot(calib_x, calib_lst, '.', label='signal ratio calibration')
+plt.plot(fit_x, fit_func(fit_x), '--', label='fit function')
+plt.text(0.05, 0.7, 'fit function:\ny(x)= '+str(np.round(m[0], 3))+' $\cdot~x^2-$'+str(abs(np.round(m[1], 3)))+' $\cdot~x+$'+str(np.round(m[2], 3)))
+plt.legend()
+plt.grid()
+plt.ylabel('Molar ethanol content')
+plt.xlabel('Signal ratio')
+# plt.ylim(bottom=0, top=1.1)
+plt.xlim(left=0, right=1.0)
+plt.savefig('calibration.pgf')
+plt.show()
+plt.close()

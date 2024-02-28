@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.8)  6 FEB 2024 15:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.8)  28 FEB 2024 14:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1611,12 +1611,12 @@ chapter 2.
 [2
 
 ]
-<images//02kapitel/energy-states.png, id=175, 455.7025pt x 341.275pt>
+<images//02kapitel/energy-states.png, id=173, 455.7025pt x 341.275pt>
 File: images//02kapitel/energy-states.png Graphic file (type png)
 <use images//02kapitel/energy-states.png>
 Package pdftex.def Info: images//02kapitel/energy-states.png  used on input line 38.
 (pdftex.def)             Requested size: 273.14928pt x 204.56348pt.
-<images//02kapitel/vib-states.png, id=178, 454.69875pt x 636.3775pt>
+<images//02kapitel/vib-states.png, id=176, 454.69875pt x 636.3775pt>
 File: images//02kapitel/vib-states.png Graphic file (type png)
 <use images//02kapitel/vib-states.png>
 Package pdftex.def Info: images//02kapitel/vib-states.png  used on input line 51.
@@ -1627,7 +1627,7 @@ LaTeX Font Warning: Font shape `T1/bch/m/scsl' undefined
 (Font)              using `T1/bch/m/sc' instead on input line 57.
 
 [3 <./images//02kapitel/energy-states.png>]
-<images//02kapitel/anharmonic-osz.png, id=188, 456.20438pt x 405.01312pt>
+<images//02kapitel/anharmonic-osz.png, id=186, 456.20438pt x 405.01312pt>
 File: images//02kapitel/anharmonic-osz.png Graphic file (type png)
 <use images//02kapitel/anharmonic-osz.png>
 Package pdftex.def Info: images//02kapitel/anharmonic-osz.png  used on input line 60.
@@ -1638,7 +1638,7 @@ LaTeX Font Warning: Font shape `T1/bch/m/scsl' undefined
 (Font)              using `T1/bch/m/sc' instead on input line 72.
 
 [4 <./images//02kapitel/vib-states.png>]
-<images//02kapitel/rot-states.png, id=200, 456.20438pt x 231.86626pt>
+<images//02kapitel/rot-states.png, id=198, 456.20438pt x 231.86626pt>
 File: images//02kapitel/rot-states.png Graphic file (type png)
 <use images//02kapitel/rot-states.png>
 Package pdftex.def Info: images//02kapitel/rot-states.png  used on input line 77.
@@ -1649,7 +1649,7 @@ Package caption Warning: Ignoring optional argument [c] of \setcapwidth
 (caption)                 on input line 90.
 See the caption package documentation for explanation.
 
-<images//02kapitel/flourescence.png, id=202, 144.54pt x 225.84375pt>
+<images//02kapitel/flourescence.png, id=200, 144.54pt x 225.84375pt>
 File: images//02kapitel/flourescence.png Graphic file (type png)
 <use images//02kapitel/flourescence.png>
 Package pdftex.def Info: images//02kapitel/flourescence.png  used on input line 92.
@@ -1674,7 +1674,7 @@ LaTeX Font Warning: Font shape `T1/bch/m/scsl' undefined
 (Font)              using `T1/bch/m/sc' instead on input line 101.
 
 [6 <./images//02kapitel/rot-states.png> <./images//02kapitel/flourescence.png>]
-<images//02kapitel/scattering.png, id=216, 455.7025pt x 327.2225pt>
+<images//02kapitel/scattering.png, id=214, 455.7025pt x 327.2225pt>
 File: images//02kapitel/scattering.png Graphic file (type png)
 <use images//02kapitel/scattering.png>
 Package pdftex.def Info: images//02kapitel/scattering.png  used on input line 108.
@@ -1687,95 +1687,93 @@ LaTeX Font Warning: Font shape `T1/bch/m/scsl' undefined
 [7 <./images//02kapitel/scattering.png>]
 
 LaTeX Font Warning: Font shape `T1/bch/m/scsl' undefined
-(Font)              using `T1/bch/m/sc' instead on input line 119.
+(Font)              using `T1/bch/m/sc' instead on input line 129.
 
 [8]
 chapter 3.
 <images//02kapitel/raman-gun.png, id=228, 455.7025pt x 266.9975pt>
 File: images//02kapitel/raman-gun.png Graphic file (type png)
 <use images//02kapitel/raman-gun.png>
-Package pdftex.def Info: images//02kapitel/raman-gun.png  used on input line 131.
+Package pdftex.def Info: images//02kapitel/raman-gun.png  used on input line 141.
 (pdftex.def)             Requested size: 364.19672pt x 213.38641pt.
-LaTeX Font Info:    Trying to load font information for TS1+bch on input line 136.
+LaTeX Font Info:    Trying to load font information for TS1+bch on input line 146.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/ts1bch.fd
 File: ts1bch.fd 2004/10/18 font definitions for TS1/bch.
 ) [9
 
  <./images//02kapitel/raman-gun.png>]
+Underfull \hbox (badness 2717) in paragraph at lines 176--176
+[]|\T1/bch/m/n/10.95 (+20) Volume frac-tion
+ []
+
 
 LaTeX Font Warning: Font shape `T1/bch/m/scsl' undefined
-(Font)              using `T1/bch/m/sc' instead on input line 173.
+(Font)              using `T1/bch/m/sc' instead on input line 183.
 
 [10]
-<images//02kapitel/temp-raman.png, id=244, 653.44125pt x 487.8225pt>
+<images//02kapitel/temp-raman.png, id=250, 653.44125pt x 487.8225pt>
 File: images//02kapitel/temp-raman.png Graphic file (type png)
 <use images//02kapitel/temp-raman.png>
-Package pdftex.def Info: images//02kapitel/temp-raman.png  used on input line 183.
+Package pdftex.def Info: images//02kapitel/temp-raman.png  used on input line 193.
 (pdftex.def)             Requested size: 273.14928pt x 203.91638pt.
 
 
 LaTeX Font Warning: Font shape `T1/bch/m/scsl' undefined
-(Font)              using `T1/bch/m/sc' instead on input line 196.
+(Font)              using `T1/bch/m/sc' instead on input line 206.
 
 [11]
 
 LaTeX Font Warning: Font shape `T1/bch/m/scsl' undefined
-(Font)              using `T1/bch/m/sc' instead on input line 205.
+(Font)              using `T1/bch/m/sc' instead on input line 215.
 
 [12 <./images//02kapitel/temp-raman.png>]
 
 LaTeX Font Warning: Font shape `T1/bch/m/scsl' undefined
-(Font)              using `T1/bch/m/sc' instead on input line 220.
+(Font)              using `T1/bch/m/sc' instead on input line 230.
 
 [13]
 chapter 4.
 (./images/02kapitel/spectra.pgf)
-Overfull \hbox (7.28339pt too wide) in paragraph at lines 1094--236
+Overfull \hbox (7.28339pt too wide) in paragraph at lines 1094--246
  [][] 
  []
 
 (./images/02kapitel/stw.pgf)
-Overfull \hbox (7.28339pt too wide) in paragraph at lines 801--245
+Overfull \hbox (7.28339pt too wide) in paragraph at lines 801--255
  [][] 
  []
 
-(./images/02kapitel/temp_data_raw.pgf)
-Overfull \hbox (7.28339pt too wide) in paragraph at lines 1075--272
- [][] 
- []
+
+LaTeX Warning: Reference `fig:plot-temp-raw' on page 14 undefined on input line 277.
 
 [14
 
 ]
 
 LaTeX Font Warning: Font shape `T1/bch/m/scsl' undefined
-(Font)              using `T1/bch/m/sc' instead on input line 311.
+(Font)              using `T1/bch/m/sc' instead on input line 323.
 
 [15]
 
 LaTeX Font Warning: Font shape `T1/bch/m/scsl' undefined
-(Font)              using `T1/bch/m/sc' instead on input line 311.
+(Font)              using `T1/bch/m/sc' instead on input line 323.
 
 [16] (./images/02kapitel/calibration.pgf)
-Overfull \hbox (7.28339pt too wide) in paragraph at lines 737--318
- [][] 
- []
-
 
 LaTeX Font Warning: Font shape `T1/bch/m/scsl' undefined
-(Font)              using `T1/bch/m/sc' instead on input line 326.
+(Font)              using `T1/bch/m/sc' instead on input line 342.
 
 [17] (./images/02kapitel/temp_data_norm.pgf)
-Overfull \hbox (7.28339pt too wide) in paragraph at lines 999--337
+Overfull \hbox (7.28339pt too wide) in paragraph at lines 999--347
  [][] 
  []
 
 
 LaTeX Font Warning: Font shape `T1/bch/m/scsl' undefined
-(Font)              using `T1/bch/m/sc' instead on input line 339.
+(Font)              using `T1/bch/m/sc' instead on input line 372.
 
 [18] (./images/02kapitel/temp_time.pgf)
-Overfull \hbox (7.28339pt too wide) in paragraph at lines 987--367
+Overfull \hbox (7.28339pt too wide) in paragraph at lines 987--377
  [][] 
  []
 
@@ -1787,16 +1785,11 @@ LaTeX Font Warning: Font shape `T1/bch/m/scsl' undefined
 [19]
 
 LaTeX Font Warning: Font shape `T1/bch/m/scsl' undefined
-(Font)              using `T1/bch/m/sc' instead on input line 2.
-
-[20]
-
-LaTeX Font Warning: Font shape `T1/bch/m/scsl' undefined
 (Font)              using `T1/bch/m/sc' instead on input line 3.
 
-[21]
+[20]
 chapter 5.
-) [22
+) [21
 
 ]
 chapter without number
@@ -1805,23 +1798,26 @@ No complaints by nag.
 
 
 ] (PDF/main.aux)
+
+LaTeX Warning: There were undefined references.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 58676 strings out of 478268
- 1327131 string characters out of 5846347
- 2389479 words of memory out of 5000000
- 75420 multiletter control sequences out of 15000+600000
- 547180 words of font info for 259 fonts, out of 8000000 for 9000
+ 58671 strings out of 478268
+ 1326986 string characters out of 5846347
+ 2384685 words of memory out of 5000000
+ 75422 multiletter control sequences out of 15000+600000
+ 546920 words of font info for 257 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  113i,20n,109p,10669b,2469s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/bitstrea/charter/bchri8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on PDF/main.pdf (27 pages, 1222584 bytes).
+Output written on PDF/main.pdf (26 pages, 1218359 bytes).
 PDF statistics:
- 505 PDF objects out of 1000 (max. 8388607)
- 409 compressed objects within 5 object streams
- 98 named destinations out of 1000 (max. 500000)
+ 501 PDF objects out of 1000 (max. 8388607)
+ 406 compressed objects within 5 object streams
+ 97 named destinations out of 1000 (max. 500000)
  67359 words of extra memory for PDF output out of 74296 (max. 10000000)
 

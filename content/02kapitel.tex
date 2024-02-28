@@ -14,7 +14,7 @@ As per the light wave duality, light can be described as both a wave and a massl
 \begin{align}
     E=h \cdot f
 \end{align}
-By inserting the standard equation for wave propagation, it can be shown that the Energy of a photon is inversely proportional to its wavelength.
+By inserting the standard equation for wave propagation, it can be shown that the energy of a photon is inversely proportional to its wavelength.
 \begin{align}
     c&=f \cdot \lambda \\
     E&= \frac{h \cdot c}{\lambda}
@@ -101,7 +101,7 @@ When the energy of a photon matches exactly with the difference between the curr
 
 \subsection{Scattering effects}
 
-If the energy of a photon does not match any energy gap inside the molecule, the photon will be scattered. In contrast to absorption, the photon does not cease to exist as it is only redirected in a random direction away from the molecule it collided with. Scattering effects can be categorized into elastic and inelastic scattering. Elastic scattering describes scattering processes where no energy is transferred and is also known as Rayleigh-Scattering. In the case of inelastic scattering, energy has been transferred between the photon and the molecule.
+If the energy of a photon does not match any energy gap inside the molecule, the photon might be scattered. In contrast to absorption, the photon does not cease to exist as it is only redirected in a random direction away from the molecule it collided with. Scattering effects can be categorized into elastic and inelastic scattering. Elastic scattering describes scattering processes where no or equal amounts of energy are transferred and is also known as Rayleigh-Scattering. In the case of inelastic scattering, energy has been transferred between the photon and the molecule.
 
 \begin{figure}[!htb]
     \centering
@@ -112,7 +112,17 @@ If the energy of a photon does not match any energy gap inside the molecule, the
 
 Depending on whether energy was transferred from the photon to the molecule or vice versa, inelastic scattering can be divided into Raman-Stokes and Raman-Anti-Stokes scattering. During Raman-Stokes scattering the photon transfers energy to the molecule which results in a lower energy and therefore red-shifted photon being scattered and the molecule residing in a higher energetic state than before. Raman-Anti-Stokes scattering on the other hand leads to a higher energy, blue shifted photon being scattered and leaves the molecule on a lower energetic level. Thus Raman-Anti-Stokes scattering cannot occur with the molecule beginning in the ground state as it cannot release any more energy. Consequently, Raman-Anti-Stokes is less prevalent than Raman-Stokes scattering because the number of molecules in lower energetic states is always higher than the number of molecules residing in higher energetic states, which is described by the Boltzmann distribution. \autoref{fig:scattering} illustrates the energetic transitions of scattering processes.
 
-The energy difference between incoming and outgoing photons is quantified by the so-called Raman shift, which is expressed as a wavenumber. By analyzing the signal intensity at certain wavenumbers, conclusions can be drawn about the molecular composition and temperature of a sample.
+% The energy difference between incoming and outgoing photons is quantified by the so-called Raman shift (see \autoref{eq:raman-shift}), which is expressed as a wavenumber. By analyzing the signal intensity at certain wavenumbers, conclusions can be drawn about the molecular composition and temperature of a sample.
+% \begin{align}
+%     \Delta\tilde{\nu}_\mathrm{R}=\frac{1}{\lambda_\mathrm{L}}-\frac{1}{\lambda_\mathrm{R}} \label{eq:raman-shift}
+% \end{align}
+
+The energy difference between incoming and outgoing photons is quantified by the so-called Raman shift $\Delta\tilde{\nu}_\mathrm{R}$, which is expressed as a wavenumber and calculated as per \autoref{eq:raman-shift}.
+\begin{align}
+    \Delta\tilde{\nu}_\mathrm{R}=\frac{1}{\lambda_\mathrm{L}}-\frac{1}{\lambda_\mathrm{R}} \label{eq:raman-shift}
+\end{align}
+By analysing the signal intensity at certain wavenumbers, conclusions can be drawn about the molecular composition and temperature of a sample. To obtain quantitative information from Raman spectroscopy, calibration measurements of samples with known properties must be performed. The resulting correlation between the signal intensity of certain Raman shifts and the physical properties, which are to be measured, can then be used to derive quantitative data from the measurement of an unknown sample.
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -144,7 +154,7 @@ To establish a correlation between Raman signal intensities and ethanol concentr
 \begin{align}
     x_\mathrm{EtOH}=\{0.0; 0.1; 0.2; 0.4; 0.6; 0.8; 1.0\} \nonumber
 \end{align}
-Guided by specified densities and molar masses, a consistent total volume of $20~\mathrm{ml}$ is maintained for each solution. Volumes were precalculated, as depicted in \autoref{tab:ethanol-conc} and the measurements are conducted at room temperature.
+Guided by specified densities and molar masses, a consistent total volume of $20~\mathrm{ml}$ is maintained for each solution. Volumes were precalculated with help of the equations \ref{eq:table-1}, \ref{eq:table-2}, and \ref{eq:table-3}, as depicted in \autoref{tab:ethanol-conc} and the measurements are conducted at room temperature.
 
 \begin{table}[!htb]
     \centering
@@ -152,24 +162,24 @@ Guided by specified densities and molar masses, a consistent total volume of $20
     \caption[Pre-calculation of volumes and volume fractions]{Pre-calculation of volumes and volume fractions for the experiment; table is showing in-between results as well}
     \label{tab:ethanol-conc}
     \vspace{12pt}
-    \begin{tabularx}{\textwidth}{|l|l|l|l|l|l|X|}
+    \begin{tabularx}{\textwidth}{|r|r|r|r|r|r|X|}
         \hline 
-        \rowcolor{lightgray} $x_\mathrm{EtOH}$ & $n_\mathrm{EtOH}~\mathrm{[mol]}$ & $n_\mathrm{H_2O}~\mathrm{[mol]}$ & $V_\mathrm{EtOH}~\mathrm{[m^3]}$ & $V_\mathrm{H_2O}~\mathrm{[m^3]}$ & $V_\mathrm{control}~\mathrm{[ml]}$ & Volume fraction $\mathrm{EtOH}$ \\ \hline \hline
-        1	& 0,34 & 	0,00 & 	0,0000200 & 	0,0000000 & 	20,00 & 	1,00  \\ \hline
-        0,8	& 0,32 & 	0,08 & 	0,0000186 & 	0,0000014 & 	20,00 & 	0,93  \\ \hline
-        0,6	& 0,28 & 	0,19 & 	0,0000166 & 	0,0000034 & 	20,00 & 	0,83  \\ \hline
-        0,4	& 0,23 & 	0,35 & 	0,0000137 & 	0,0000063 & 	20,00 & 	0,68  \\ \hline
-        0,2	& 0,15 & 	0,61 & 	0,0000090 & 	0,0000110 & 	20,00 & 	0,45  \\ \hline
-        0,1	& 0,09 & 	0,82 & 	0,0000053 & 	0,0000147 & 	20,00 & 	0,27  \\ \hline
-        0	& 0,00 & 	--	 &  0,0000000 &  	0,0000200 &  	20,00 &  	0,00  \\ \hline
+        \rowcolor{lightgray} $x_\mathrm{EtOH}$ & $n_\mathrm{EtOH}~\mathrm{[mol]}$ & $n_\mathrm{H_2O}~\mathrm{[mol]}$ & $V_\mathrm{EtOH}~\mathrm{[ml]}$ & $V_\mathrm{H_2O}~\mathrm{[ml]}$ & $V_\mathrm{control}~\mathrm{[ml]}$ & Volume fraction $\mathrm{EtOH}$ \\ \hline \hline
+        1	& 0,34 & 	0,00 & 	20,0 & 	 0,0 & 	20,00 & 	1,00  \\ \hline
+        0,8	& 0,32 & 	0,08 & 	18,6 & 	 1,4 & 	20,00 & 	0,93  \\ \hline
+        0,6	& 0,28 & 	0,19 & 	16,6 & 	 3,4 & 	20,00 & 	0,83  \\ \hline
+        0,4	& 0,23 & 	0,35 & 	13,7 & 	 6,3 & 	20,00 & 	0,68  \\ \hline
+        0,2	& 0,15 & 	0,61 & 	 9,0 & 	11,0 & 	20,00 & 	0,45  \\ \hline
+        0,1	& 0,09 & 	0,82 & 	 5,3 & 	14,7 & 	20,00 & 	0,27  \\ \hline
+        0	& 0,00 & 	--	 &   0,0 &  20,0 &  20,00 &  	0,00  \\ \hline
 
     \end{tabularx}
 \end{table}
 
 \begin{align}
-    V_\mathrm{ges}&=\frac{n_\mathrm{EtOH} \cdot M_\mathrm{EtOH}}{\rho_\mathrm{EtOH}} + \frac{n_\mathrm{H_2O} \cdot M_\mathrm{H_2O}}{\rho_\mathrm{H_2O}} \\[6pt]
-    n_\mathrm{H_2O}&=\frac{n_\mathrm{EtOH} \cdot (1-x_\mathrm{EtOH})}{x_\mathrm{EtOH}} \\[6pt]
-    V&=\frac{n \cdot M}{\rho}
+    V_\mathrm{ges}&=\frac{n_\mathrm{EtOH} \cdot M_\mathrm{EtOH}}{\rho_\mathrm{EtOH}} + \frac{n_\mathrm{H_2O} \cdot M_\mathrm{H_2O}}{\rho_\mathrm{H_2O}} \label{eq:table-1}\\[6pt]
+    n_\mathrm{H_2O}&=\frac{n_\mathrm{EtOH} \cdot (1-x_\mathrm{EtOH})}{x_\mathrm{EtOH}} \label{eq:table-2}\\[6pt]
+    V&=\frac{n \cdot M}{\rho} \label{eq:table-3}
 \end{align}
 
 The measurements are conducted in the software "SpectraSuite". Exposure time is set to $1~\mathrm{s}$, before recording and subtracting a dark spectrum, and optimizing the cuvette's position in the laser beam. Ten Raman spectra are captured, saved, and exported for each mixture. After room lighting was restored, subsequent steps included sample replacement, process repetition, and saving spectra for different compositions in the designated folder. At last, the spectrum of the cuvette containing the unknown mixture is recorded.
@@ -201,7 +211,7 @@ Subsequently, the intensity ratio $r_\mathrm{EtOH}$, which shall be correlated t
 \begin{align}
     r_\mathrm{EtOH}=\frac{I_\mathrm{EtOH}}{I_\mathrm{EtOH}+I_\mathrm{H_2O}}
 \end{align}
-This is done for the results of each of the known mixtures. The calculated intensity ratios are then fitted to the known molar fractions of the mixtures by performing a linear regression. The function of the regression is used to calculate the molar fraction corresponding to the signal intensity of the unknown mixture. At last, the volumetric concentration of ethanol $x_\mathrm{V,EtOH}$ in the unknown mixture is computed using the following formula.
+This is done for the results of each of the known mixtures. The calculated intensity ratios are then fitted to the known molar fractions of the mixtures by performing a polynomial regression. The function of the regression is used to calculate the molar fraction corresponding to the signal intensity of the unknown mixture. At last, the volumetric concentration of ethanol $x_\mathrm{V,EtOH}$ in the unknown mixture is computed using the following formula.
 \begin{align}
     x_\mathrm{V,EtOH}=\frac{M_\mathrm{EtOH}}{\rho_\mathrm{EtOH}} \cdot \bigg[ \frac{M_\mathrm{EtOH}}{\rho_\mathrm{EtOH}} + \frac{(1-x_\mathrm{EtOH}) \cdot M_\mathrm{H_2O}}{x_\mathrm{EtOH} \cdot \rho_\mathrm{H_2O}} \bigg]^{-1}
 \end{align}
@@ -266,12 +276,12 @@ The integration limits used in the evaluation are listed in \autoref{tab:integ-l
 
 The raw data of the intensity spectrum over the Raman shift can be obtained in \autoref{fig:plot-temp-raw}. 
 
-\begin{figure}[!htb]
-    \centering
-    \input{images/02kapitel/temp_data_raw.pgf}
-    \caption[Absolute Raman shift intensities for the lowest and highest temperatures]{Plot of the absolute scattering intensities over the Raman shift $\Delta \tilde{v}$; Plot at the highest recorded temperature and the lowest recorded temperature for simplification purposes}
-    \label{fig:plot-temp-raw}
-\end{figure}
+% \begin{figure}[!htb]
+%     \centering
+%     \input{images/02kapitel/temp_data_raw.pgf}
+%     \caption[Absolute Raman shift intensities for the lowest and highest temperatures]{Plot of the absolute scattering intensities over the Raman shift $\Delta \tilde{v}$; Plot at the highest recorded temperature and the lowest recorded temperature for simplification purposes}
+%     \label{fig:plot-temp-raw}
+% \end{figure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Evaluation and error discussion}
@@ -302,14 +312,14 @@ Per the strategy described in \autoref{subsec:spec-prep} the signal of both peak
     \end{tabular}
 \end{table}
 
-As the intensity rations do not equal the molar fractions exactly, the two are plotted against each other and a linear regression through the origin of the coordinate system is performed (see \autoref{fig:calibration}). The function
+As the intensity ratios do not equal the molar fractions exactly, the two are plotted against each other and a polynomial regression is performed (see \autoref{fig:calibration}). The function
 \begin{align}
-    r_\mathrm{EtOH}=0.976 \cdot x_\mathrm{EtOH} \nonumber
+    r_\mathrm{EtOH}=1.746 \cdot x_\mathrm{EtOH}^2 - 0.277 \cdot x_\mathrm{EtOH} + 0.023 \nonumber
 \end{align}
-describes the relation between both with a correlation coefficient of $R^2=0.95$. To determine the ethanol content of the unknown mixture, the function is rearranged, and the intensity ratio is inserted.
+describes the relation between both with a correlation coefficient of $R^2=0.99$. To determine the ethanol content of the unknown mixture, the function is rearranged, and the intensity ratio is inserted.
 
 \begin{align}
-    x_\mathrm{EtOH,unknown}=\frac{r_\mathrm{EtOH}}{0.976}=\frac{0.472}{0.976}=0.484\approx0.5 \nonumber
+    x_\mathrm{EtOH,unknown}=0.281\approx0.28 \nonumber
 \end{align}
 
 \begin{figure}[!htb]
@@ -319,9 +329,9 @@ describes the relation between both with a correlation coefficient of $R^2=0.95$
     \label{fig:calibration}
 \end{figure}
 
-With the molar fraction known, the volume fraction can be computed according to the formula in \autoref{subsec:spec-eval}. Inserting the given molar masses, densities, and the calculated molar fraction results in a volume fraction of $x_\mathrm{V,EtOH}=0.75$.
+With the molar fraction known, the volume fraction can be computed according to the formula in \autoref{subsec:spec-eval}. Inserting the given molar masses, densities, and the calculated molar fraction results in a volume fraction of $x_\mathrm{V,EtOH}=0.56$.
 
-The accuracy of the calculated molar and volume fractions is dependent on the fitness of the calibration curve. Inaccuracies during the calibration measurements lead to systematic errors in the calculations. In this case, the linear regression has a correlation coefficient of $0.95$. Thus, slight errors are expected, and the accuracy of the measurement is limited. Especially in the proximity of the unknown sample ($x_\mathrm{EtOH,unknown} \approx 0.5$), the regression function deviates significantly from the measured values, as is depicted in \autoref{fig:calibration}. Apart from the inaccuracies stemming from the optical components and the spectrometer, the homogeneity and placement of the sample may affect the accuracy of the measurements too.
+The accuracy of the calculated molar and volume fractions is dependent on the fitness of the calibration curve. Inaccuracies during the calibration measurements lead to systematic errors in the calculations. In this case, the polynomial regression has a correlation coefficient of $0.99$. Thus, only marginal errors are expected. Apart from the inaccuracies stemming from the optical components and the spectrometer, the homogeneity and placement of the sample may affect the accuracy of the measurements too.
 
 The quality of the calibration could be improved by recording multiple spectra per known mixture, while using a fixed placement for the cuvettes and shaking them in between measurements. As all measurements were performed at room temperature and the samples acclimatized, the influence of temperature differences can be neglected.
 
