@@ -2023,12 +2023,12 @@ INPUT images/02kapitel/stw.pgf
 INPUT ./images/02kapitel/stw.pgf
 INPUT images/02kapitel/stw.pgf
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/bitstrea/charter/bchri8t.tfm
+INPUT ./images/02kapitel/calibration.pgf
+INPUT images/02kapitel/calibration.pgf
+INPUT ./images/02kapitel/calibration.pgf
+INPUT images/02kapitel/calibration.pgf
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/vf/bitstrea/charter/bchri8t.vf
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/bitstrea/charter/bchri8r.tfm
-INPUT ./images/02kapitel/calibration.pgf
-INPUT images/02kapitel/calibration.pgf
-INPUT ./images/02kapitel/calibration.pgf
-INPUT images/02kapitel/calibration.pgf
 INPUT ./images/02kapitel/temp_data_norm.pgf
 INPUT images/02kapitel/temp_data_norm.pgf
 INPUT ./images/02kapitel/temp_data_norm.pgf
